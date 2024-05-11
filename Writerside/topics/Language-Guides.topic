@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Elide Runtime" id="Language-Guides">
+
+<!--    A section combines multiple topics dedicated to a specific subject.
+            Add a starting page to provide an overview of the topics in the section.
+            Start with two topics you want to promote in the <spotlight> group,
+            several important topics in the <primary> group (for example, where to start),
+            several less important topics in the <secondary> group (for example, more advanced topics),
+            and optionally add any other relevant topics in the <misc> group as cards and lists of links
+            (maybe related topics from other sections).
+            Only the spotlight section is limited to two topics.
+            For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
+
+    <section-starting-page>
+        <title>Elide Runtime</title>
+        <description>
+            Use Elide to run JavaScript, Python, Ruby, and more
+        </description>
+
+        <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
+        <spotlight>
+            <a href="Polyglot.md" type="start" summary="Thinking in multiple languages">Polyglot 101</a>
+            <a href="https://docs.elide.dev/apidocs/" type="search" summary="API and reference documentation">Reference</a>
+        </spotlight>
+
+        <!--    Add several topics that are most important for this section.    -->
+        <primary>
+            <title>Languages</title>
+            <a href="JavaScript.md" type="javascript" summary="Run JavaScript with Elide, including Node API support">JavaScript + Node.js</a>
+            <a href="Python.md" type="python" summary="Run Python with Elide, up to 3.12.x">Python</a>
+            <a href="Ruby.md" type="ruby" summary="Run Ruby with Elide, up to 3.2.x">Ruby</a>
+            <a href="Experimental.md" summary="Experimental engines, including JVM, LLVM, and WebAssembly">JVM, LLVM, WASM</a>
+        </primary>
+
+        <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
+        <secondary>
+            <title>Building servers</title>
+            <a href="" summary="Embed React SSR in your Kotlin app">Kotlin + React SSR</a>
+            <a href="" summary="Run Express-compatible servers on Elide">Elide + Express.js</a>
+            <a href="" summary="Packaging and serving static resources">Static Assets</a>
+        </secondary>
+
+        <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
+        <misc>
+            <cards>
+                <title>Other relevant topics as wide cards</title>
+                <a href=""/>
+                <a href="" summary="With a custom card summary"/>
+                <a href="">Custom card title</a>
+                <a href="" summary="With a custom card summary">Custom card title</a>
+            </cards>
+
+            <cards narrow="true">
+                <title>Other relevant topics as narrow cards</title>
+                <a href=""/>
+                <a href=""/>
+                <a href="" summary="With a custom card summary"/>
+                <a href="">Custom card title</a>
+                <a href="">Custom card title</a>
+                <a href="" summary="With a custom card summary">Custom card title</a>
+            </cards>
+
+            <links>
+                <group>
+                    <title>Other related topics as links</title>
+                    <a href=""/>
+                    <a href="" summary="With a custom card summary"/>
+                    <a href="">Custom card title</a>
+                    <a href="" summary="With a custom card summary">Custom card title</a>
+                </group>
+                <group>
+                    <title>Two in a row</title>
+                    <a href=""/>
+                    <a href="" summary="With a custom card summary"/>
+                    <a href="">Custom card title</a>
+                    <a href="" summary="With a custom card summary">Custom card title</a>
+                </group>
+            </links>
+
+            <links narrow="true">
+                <group>
+                    <title>More related topics</title>
+                    <a href=""/>
+                    <a href="" summary="With a custom card summary"/>
+                    <a href="">Custom card title</a>
+                    <a href="" summary="With a custom card summary">Custom card title</a>
+                </group>
+                <group>
+                    <title>Three in a row</title>
+                    <a href=""/>
+                    <a href=""/>
+                    <a href="">Custom card title</a>
+                    <a href="">Custom card title</a>
+                </group>
+                <group>
+                    <title>Each group is narrow</title>
+                    <a href=""/>
+                    <a href=""/>
+                    <a href="">Custom card title</a>
+                    <a href="">Custom card title</a>
+                </group>
+            </links>
+        </misc>
+    </section-starting-page>
+
+</topic>
