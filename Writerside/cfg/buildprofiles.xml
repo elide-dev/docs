@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <variables>
+        <!-- Search -->
+        <algolia-id>GPZ3MWT2LQ</algolia-id>
+        <algolia-index>dev_elide_docs</algolia-index>
+        <algolia-api-key>e8d7c64b61ca6a98b8a0ba187a7cabc7</algolia-api-key>
 
-<!--    <variables></variables>-->
+        <!-- Web -->
+        <web-root>https://alpha.docs.elide.dev</web-root>
+        <product-web-url>https://elide.dev</product-web-url>
+
+        <!-- Style & Images -->
+        <primary-color>purple</primary-color>
+        <custom-favicons>mark-e-favicon-r2.svg</custom-favicons>
+        <header-logo>mark-e-gray.png</header-logo>
+
+        <!-- Downloads -->
+        <download-title>Downloads</download-title>
+        <download-page>https://alpha.docs.elide.dev/installation.html</download-page>
+        <showDownloadButton>true</showDownloadButton>
+    </variables>
+
+    <sitemap priority="0.35" change-frequency="monthly"/>
+
     <build-profile instance="e">
         <variables>
-            <noindex-content>true</noindex-content>
+            <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
-
 </buildprofiles>

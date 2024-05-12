@@ -30,4 +30,8 @@
         <description>Created after removal of "Reference" from Elide</description>
         <accepts>Reference.html</accepts>
     </rule>
+    <rule id="5b129b60">
+        <description>Created after removal of "Starter" from Elide</description>
+        <accepts>starter.html</accepts>
+    </rule>
 </rules>
