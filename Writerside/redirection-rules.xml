@@ -34,4 +34,12 @@
         <description>Created after removal of "Starter" from Elide</description>
         <accepts>starter.html</accepts>
     </rule>
+    <rule id="28913f73">
+        <description>Created after removal of "Template" from Elide</description>
+        <accepts>node-template.html</accepts>
+    </rule>
+    <rule id="41ba8e48">
+        <description>Created after removal of "Debugger" from Elide</description>
+        <accepts>node-debugger.html</accepts>
+    </rule>
 </rules>

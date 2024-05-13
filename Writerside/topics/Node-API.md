@@ -23,7 +23,7 @@ Opening issues for compatibility bugs helps us prioritize what to work on next.
 
 ## Built-in modules
 
-[`node:assert`](https://nodejs.org/api/assert.html)
+[`node:assert`](node-assert.md)
 : 🟡 Coming soon.
 
 [`node:async_hooks`](https://nodejs.org/api/async_hooks.html)

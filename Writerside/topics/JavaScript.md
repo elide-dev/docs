@@ -14,11 +14,11 @@ export default function hello() {
 %product% is an ECMA2023-compliant JavaScript engine. JS is the most mature language offered by %product%; execution is
 powered by [GraalJs](https://github.com/oracle/graaljs), which ships with GraalVM.
 
-| Language | **JavaScript**                                      |
-|----------|-----------------------------------------------------|
-| Standard | ECMA2023                                            |
-| Maturity | ![Alpha](https://img.shields.io/badge/-beta-purple) |
-| Engine   | [GraalJs](https://github.com/oracle/graaljs)        |
+| Language | **JavaScript**                                     |
+|----------|----------------------------------------------------|
+| Standard | ECMA2023                                           |
+| Maturity | ![Beta](https://img.shields.io/badge/-beta-purple) |
+| Engine   | [GraalJs](https://github.com/oracle/graaljs)       |
 
 ## Node API
 

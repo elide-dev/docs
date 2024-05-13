@@ -16,6 +16,10 @@
         <custom-favicons>mark-e-favicon-r2.svg</custom-favicons>
         <header-logo>mark-e-gray.png</header-logo>
 
+        <!-- Versions -->
+        <!--<versions-comparison></versions-comparison>-->
+        <!--<versions-switcher></versions-switcher>-->
+
         <!-- Downloads -->
         <download-title>Downloads</download-title>
         <download-page>https://alpha.docs.elide.dev/installation.html</download-page>

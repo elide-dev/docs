@@ -4,7 +4,8 @@
 
 <instance-profile id="e"
                  name="Elide"
-                 start-page="Welcome.md">
+                 start-page="Welcome.md"
+                 status="eap">
 
     <toc-element topic="Welcome.md"/>
     <toc-element topic="Installation.md"/>
@@ -15,8 +16,49 @@
             <toc-element topic="101-Filesystem.md"/>
         </toc-element>
         <toc-element topic="JavaScript.md">
-            <toc-element topic="Node-API.md"/>
+            <toc-element topic="Node-API.md">
+                <toc-element topic="node-assert.md"/>
+                <toc-element toc-title="Async Hooks" />
+                <toc-element toc-title="Buffer" />
+                <toc-element toc-title="Child Process" />
+                <toc-element toc-title="Crypto" />
+                <toc-element toc-title="DNS" />
+                <toc-element topic="node-events.md"/>
+                <toc-element topic="node-fs.md"/>
+                <toc-element toc-title="HTTP" />
+                <toc-element toc-title="HTTP/2" />
+                <toc-element toc-title="HTTPS" />
+                <toc-element toc-title="Inspector" />
+                <toc-element toc-title="Modules" />
+                <toc-element toc-title="Net" />
+                <toc-element topic="node-os.md"/>
+                <toc-element topic="node-path.md"/>
+                <toc-element toc-title="Performance Hooks" />
+                <toc-element toc-title="Query strings" />
+                <toc-element toc-title="Readline" />
+                <toc-element toc-title="Stream" />
+                <toc-element toc-title="String decoder" />
+                <toc-element toc-title="Test runner" />
+                <toc-element toc-title="Timers" />
+                <toc-element toc-title="TLS/SSL" />
+                <toc-element toc-title="TTY" />
+                <toc-element toc-title="UDP/Datagram" />
+                <toc-element toc-title="URL" />
+                <toc-element toc-title="Utilities" />
+                <toc-element toc-title="V8" />
+                <toc-element toc-title="VM" />
+                <toc-element toc-title="WASI" />
+                <toc-element toc-title="Worker threads" />
+                <toc-element toc-title="Zlib" />
+            </toc-element>
+            <toc-element toc-title="Web APIs">
+                <toc-element toc-title="Fetch API" />
+                <toc-element toc-title="URL API" />
+                <toc-element toc-title="Web Crypto API" />
+                <toc-element toc-title="Web Streams API" />
+            </toc-element>
         </toc-element>
+        <toc-element topic="TypeScript.md"/>
         <toc-element topic="Python.md"/>
         <toc-element topic="Ruby.md"/>
         <toc-element topic="Experimental.md"/>
@@ -26,8 +68,19 @@
         <toc-element toc-title="Framework Modules">
             <toc-element topic="Elide-Base.md"/>
         </toc-element>
+        <toc-element toc-title="Advanced Guides">
+            <toc-element toc-title="Embedding Elide" />
+            <toc-element toc-title="Native Containers" />
+            <toc-element toc-title="Kotlin + React SSR" />
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="Usage Guides">
+        <toc-element topic="Tutorial.md"/>
+        <toc-element topic="How-to.md"/>
+        <toc-element topic="Overview.md"/>
     </toc-element>
     <toc-element topic="Architecture.md">
+        <toc-element topic="Execution.md"/>
         <toc-element topic="Security.md"/>
         <toc-element toc-title="Embedded Engines">
             <toc-element toc-title="GraalJs" href="https://github.com/oracle/graaljs" />
@@ -39,14 +92,15 @@
         </toc-element>
         <toc-element toc-title="Related Software">
             <toc-element toc-title="GraalVM" href="https://graalvm.org" />
-            <toc-element toc-title="Micronaut" href="https://micronaut.org" />
+            <toc-element toc-title="Micronaut" href="https://micronaut.io" />
             <toc-element toc-title="Kotlin" href="https://kotlin-lang.org" />
         </toc-element>
     </toc-element>
-    <toc-element toc-title="Usage Guides">
-        <toc-element topic="Tutorial.md"/>
-        <toc-element topic="How-to.md"/>
-        <toc-element topic="Overview.md"/>
+    <toc-element toc-title="Legal &amp; Licensing">
+        <toc-element toc-title="Terms of Use" />
+        <toc-element toc-title="Privacy Policy" />
+        <toc-element toc-title="Provenance" />
+        <toc-element toc-title="Licensing" />
     </toc-element>
     <toc-element topic="CLI-Reference.md"/>
     <toc-element toc-title="API Reference" href="https://docs.elide.dev/apidocs/" />
