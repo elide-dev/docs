@@ -61,3 +61,10 @@ imported or required the `fs` or `path` module, you've used the Node API.
 ECMAScript
 : Formal name for JavaScript, as defined by the ECMAScript Standard. JavaScript language versions are denoted as ECMA
 years; for example, 'ECMA2023' includes JavaScript features up to the year 2023.
+
+<seealso style="cards">
+    <category ref="gettingStarted">
+        <a summary="Node API support in %product%" href="Node-API.md">Node API support</a>
+        <a summary="Running TypeScript apps in %product%" href="TypeScript.md">TypeScript</a>
+    </category>
+</seealso>
