@@ -5,6 +5,8 @@ Welcome to the main [Elide](https://elide.dev) documentation site. Here you can 
 
 <br />
 
+<video src="https://youtu.be/Txl9ryfbCw4" preview-src="launch-cover.png" />
+
 ## API Reference
 
 <!--Writerside adds this topic when you create a new documentation project.
