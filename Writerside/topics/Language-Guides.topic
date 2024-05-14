@@ -38,19 +38,18 @@
                 <a href="Security.md" summary="Security and host/guest isolation"/>
                 <a href="Performance.md" summary="Startup and runtime performance and benchmarks"/>
             </cards>
-
             <links>
                 <group>
                     <title>Related Software</title>
-                    <a href="https://micronaut.io">Micronaut</a>
-                    <a href="https://kotlinlang.org">Kotlin</a>
-                    <a href="https://graalvm.org">GraalVM</a>
+                    <a summary="%product% uses Micronaut for serving" href="https://micronaut.io">Micronaut</a>
+                    <a summary="%product% is written in Kotlin" href="https://kotlinlang.org">Kotlin</a>
+                    <a summary="%product% executes guest code with GraalVM" href="https://graalvm.org">GraalVM</a>
                 </group>
                 <group>
                     <title>Legal &amp; Licensing</title>
-                    <a href="https://elide.dev/legal/terms">Terms of Use</a>
-                    <a href="https://elide.dev/legal/privacy">Privacy Policy</a>
-                    <a href="https://elide.dev/legal/license">Licensing</a>
+                    <a summary="Terms of Use" href="https://elide.dev/legal/terms">Terms of Use</a>
+                    <a summary="Privacy Policy" href="https://elide.dev/legal/privacy">Privacy Policy</a>
+                    <a summary="Licensing" href="https://elide.dev/legal/license">Licensing</a>
                 </group>
             </links>
         </misc>
