@@ -1,11 +1,21 @@
 # Welcome
 
+<img src="elide-marquee.png" alt="%product%" />
+
 Welcome to the main [Elide](https://elide.dev) documentation site. Here you can find reference docs,
 [guides](Polyglot.md), [code samples](Framework-Samples.md), and more.
 
 <br />
 
+## %product% is in alpha
+
+Check out our alpha event launch video, which comes with sample code and demonstrates what %product% can do for your
+workflow
+
 <video src="https://youtu.be/Txl9ryfbCw4" preview-src="launch-cover.png" />
+
+<br />
+<br />
 
 <seealso style="cards">
     <category ref="gettingStarted">

@@ -16,6 +16,31 @@
         <custom-favicons>mark-e-favicon-r2.svg</custom-favicons>
         <header-logo>mark-e-gray.png</header-logo>
 
+        <!-- Analytics -->
+        <analytics-head-script-file>analytics_head.html</analytics-head-script-file>
+        <analytics-body-html-file>analytics_tail.html</analytics-body-html-file>
+
+        <!-- Browser Edits -->
+        <enable-browser-edits>true</enable-browser-edits>
+        <browser-edits-url>https://github.com/elide-dev/docs/edit/main/Writerside/topics/</browser-edits-url>
+
+        <!-- Feedback Widget -->
+        <feedback-widget>true</feedback-widget>
+        <feedbackRequireEmail>false</feedbackRequireEmail>
+        <feedback-url>https://help.elide.dev</feedback-url>
+        <feedback-support>https://help.elide.dev</feedback-support>
+
+        <!-- SEO -->
+        <generate-canonicals>true</generate-canonicals>
+        <noindex-content>false</noindex-content>
+        <og-twitter>https://twitter.com/elide_dev</og-twitter>
+        <!-- <og-image></og-image> -->
+
+        <!-- HTML Snippets -->
+        <!-- <include-in-head></include-in-head> -->
+        <!-- <include-before-body></include-before-body> -->
+        <!-- <include-after-body></include-after-body> -->
+
         <!-- Versions -->
         <!--<versions-comparison></versions-comparison>-->
         <!--<versions-switcher></versions-switcher>-->
@@ -24,6 +49,10 @@
         <download-title>Downloads</download-title>
         <download-page>https://alpha.docs.elide.dev/installation.html</download-page>
         <showDownloadButton>true</showDownloadButton>
+
+        <!-- General Settings -->
+        <webmaster>help@elide.dev</webmaster>
+        <write-help-state-file>true</write-help-state-file>
     </variables>
 
     <sitemap priority="0.35" change-frequency="monthly"/>
