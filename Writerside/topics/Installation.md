@@ -1,3 +1,7 @@
+---
+switcher-label: OS
+---
+
 # Installation
 
 %product% sets up on your machine similar to Node or Python. Use the directions below to install %product%.
@@ -8,13 +12,13 @@
 
 | OS      | Architectures      | Status                                                             | Notes                                                         |
 |---------|--------------------|--------------------------------------------------------------------|---------------------------------------------------------------|
-| Linux   | `amd64`            | ![Beta](https://img.shields.io/badge/-beta-purple)                 |                                                               |
+| Linux   | `amd64`, `aarch64` | ![Beta](https://img.shields.io/badge/-beta-purple)                 |                                                               |
 | macOS   | `amd64`, `aarch64` | ![Beta](https://img.shields.io/badge/-beta-purple)                 | Limited support for certain features, see _macOS Limitations_ |
 | Windows | `amd64`            | ![Experimental](https://img.shields.io/badge/-experimental-orange) | Reach out for install instructions                            |
 
 ## Installing %product%
 
-<tabs>
+<tabs switcher-key="Posix">
     <tab title="One-line Script">
         <code-block lang="bash">curl -sSL --tlsv1.2 elide.sh | bash -s -</code-block>
         <p>The installer script can take options:</p>
@@ -22,7 +26,7 @@
         <code-block lang="bash">curl -sSL --tlsv1.2 elide.sh | bash -s - --help</code-block>
     </tab>
     <tab title="Package Managers">
-        <procedure title="Install with a Package Manager" id="install-with-pkg-manager">
+        <procedure title="Install with a Package Manager" id="install-with-pkg-manager-posix">
             <step>
                 <p>Start typing and select a procedure type from the completion suggestions:</p>
                 <img src="completion_procedure.png" alt="completion suggestions for procedure" border-effect="line"/>
@@ -33,7 +37,21 @@
         </procedure>
     </tab>
     <tab title="Binary Download">
-        <procedure title="Manual Binary Installation" id="binary-download">
+        <procedure title="Manual Binary Installation" id="binary-download-posix">
+            <step>
+                <p>Start typing and select a procedure type from the completion suggestions:</p>
+                <img src="completion_procedure.png" alt="completion suggestions for procedure" border-effect="line"/>
+            </step>
+            <step>
+                <p>Press <shortcut>Tab</shortcut> or <shortcut>Enter</shortcut> to insert the markup.</p>
+            </step>
+        </procedure>
+    </tab>
+</tabs>
+
+<tabs switcher-key="Windows">
+    <tab title="Binary Download">
+        <procedure title="Manual Binary Installation" id="binary-download-windows">
             <step>
                 <p>Start typing and select a procedure type from the completion suggestions:</p>
                 <img src="completion_procedure.png" alt="completion suggestions for procedure" border-effect="line"/>
