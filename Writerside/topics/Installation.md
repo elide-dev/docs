@@ -121,3 +121,12 @@ Certain features are not supported on macOS yet:
   At this time there are no native libs available upstream for Espresso on macOS.
   Espresso ([Java on Truffle](https://www.graalvm.org/latest/reference-manual/java-on-truffle/)) is experimental and
   this limitation is expected to change eventually.
+
+<seealso>
+    <category ref="gettingStarted">
+        <a href="GettingStarted.md">Getting Started with %product%</a>
+        <a href="Polyglot.md">Polyglot 101: Thinking in Multiple Languages</a>
+        <a href="Language-Guides.topic">%product% Runtime: Language Guides</a>
+        <a href="Elide-Framework.md">%product% Framework: Using %product% from JVM</a>
+    </category>
+</seealso>

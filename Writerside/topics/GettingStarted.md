@@ -75,3 +75,12 @@ elide ruby
 > You can use <shortcut>Ctrl+D</shortcut> or <shortcut>Ctrl+C</shortcut> twice to exit the interactive session.
 >
 {style="note"}
+
+<seealso>
+    <category ref="gettingStarted">
+        <a href="Installation.md">Installing %product%</a>
+        <a href="Polyglot.md">Polyglot 101: Thinking in Multiple Languages</a>
+        <a href="Language-Guides.topic">%product% Runtime: Language Guides</a>
+        <a href="Elide-Framework.md">%product% Framework: Using %product% from JVM</a>
+    </category>
+</seealso>

@@ -24,22 +24,25 @@ Opening issues for compatibility bugs helps us prioritize what to work on next.
 ## Built-in modules
 
 [`node:assert`](node-assert.md)
+: 🟢 Supported.
+
+[`node:assert/strict`](node-assert.md)
 : 🟡 Coming soon.
 
 [`node:async_hooks`](https://nodejs.org/api/async_hooks.html)
-: 🟡 Coming soon.
+: 🔴 Not implemented.
 
 [`node:buffer`](https://nodejs.org/api/buffer.html)
-: 🟡 Coming soon.
+: 🔴 Not implemented.
 
 [`node:child_process`](https://nodejs.org/api/child_process.html)
-: 🟡 Coming soon.
+: 🔴 Not implemented.
 
 [`node:cluster`](https://nodejs.org/api/cluster.html)
-: 🟡 Coming soon.
+: 🔴 Not implemented.
 
 [`node:console`](https://nodejs.org/api/console.html)
-: 🟡 Coming soon.
+: 🟡 Coming soon. See [`console`](#globals) global, which is supported.
 
 [`node:crypto`](https://nodejs.org/api/crypto.html)
 : 🔴 Not implemented.
@@ -56,10 +59,10 @@ Opening issues for compatibility bugs helps us prioritize what to work on next.
 [`node:domain`](https://nodejs.org/api/domain.html)
 : 🔴 Not implemented.
 
-[`node:events`](https://nodejs.org/api/events.html)
+[`node:events`](node-events.md)
 : 🟡 Coming soon.
 
-[`node:fs`](https://nodejs.org/api/fs.html)
+[`node:fs`](node-fs.md)
 : 🟡 Some basic methods are implemented (`readFile`, `readFileSync`, `writeFile`, `writeFileSync`, etc.).
 
 [`node:http`](https://nodejs.org/api/http.html)
@@ -80,11 +83,11 @@ Opening issues for compatibility bugs helps us prioritize what to work on next.
 [`node:net`](https://nodejs.org/api/net.html)
 : 🔴 Not implemented.
 
-[`node:os`](https://nodejs.org/api/os.html)
-: 🟡 Coming soon.
+[`node:os`](node-os.md)
+: 🟢 Supported.
 
-[`node:path`](https://nodejs.org/api/path.html)
-: 🟡 Coming soon.
+[`node:path`](node-path.md)
+: 🟢 Supported.
 
 [`node:perf_hooks`](https://nodejs.org/api/perf_hooks.html)
 : 🔴 Not implemented.
@@ -128,8 +131,8 @@ Opening issues for compatibility bugs helps us prioritize what to work on next.
 [`node:tty`](https://nodejs.org/api/tty.html)
 : 🔴 Not implemented.
 
-[`node:url`](https://nodejs.org/api/url.html)
-: 🟡 Coming soon.
+[`node:url`](node-url.md)
+: 🟢 Supported.
 
 [`node:util`](https://nodejs.org/api/util.html)
 : 🟡 Mostly polyfilled.
@@ -154,16 +157,16 @@ Opening issues for compatibility bugs helps us prioritize what to work on next.
 The table below lists all globals implemented by Node.js and Bun's current compatibility status.
 
 [`AbortController`](https://developer.mozilla.org/en-US/docs/Web/API/AbortController)
-: 🔴 Not implemented.
+: 🟡 Polyfilled.
 
 [`AbortSignal`](https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal)
-: 🔴 Not implemented.
+: 🟡 Polyfilled.
 
 [`Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob)
 : 🔴 Not implemented.
 
 [`Buffer`](https://nodejs.org/api/buffer.html#class-buffer)
-: 🔴 Not implemented.
+: 🟡 Polyfilled.
 
 [`ByteLengthQueuingStrategy`](https://developer.mozilla.org/en-US/docs/Web/API/ByteLengthQueuingStrategy)
 : 🔴 Not implemented.
@@ -175,28 +178,28 @@ The table below lists all globals implemented by Node.js and Bun's current compa
 : 🔴 Not implemented.
 
 [`atob()`](https://developer.mozilla.org/en-US/docs/Web/API/atob)
-: 🟢 Fully implemented.
+: 🟢 Supported.
 
 [`BroadcastChannel`](https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel)
 : 🔴 Not implemented.
 
 [`btoa()`](https://developer.mozilla.org/en-US/docs/Web/API/btoa)
-: 🟢 Fully implemented.
+: 🟢 Supported.
 
 [`clearImmediate()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/clearImmediate)
-: 🟡 Coming soon.
+: 🟢 Supported.
 
 [`clearInterval()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/clearInterval)
-: 🟡 Coming soon.
+: 🟢 Supported.
 
 [`clearTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/clearTimeout)
-: 🟡 Coming soon.
+: 🟢 Supported.
 
 [`CompressionStream`](https://developer.mozilla.org/en-US/docs/Web/API/CompressionStream)
 : 🔴 Not implemented.
 
 [`console`](https://developer.mozilla.org/en-US/docs/Web/API/console)
-: 🟢 Fully implemented.
+: 🟢 Supported.
 
 [`CountQueuingStrategy`](https://developer.mozilla.org/en-US/docs/Web/API/CountQueuingStrategy)
 : 🔴 Not implemented.
@@ -211,19 +214,19 @@ The table below lists all globals implemented by Node.js and Bun's current compa
 : 🔴 Not implemented.
 
 [`CustomEvent`](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent)
-: 🟡 Coming soon.
+: 🟢 Supported.
 
 [`DecompressionStream`](https://developer.mozilla.org/en-US/docs/Web/API/DecompressionStream)
 : 🔴 Not implemented.
 
 [`Event`](https://developer.mozilla.org/en-US/docs/Web/API/Event)
-: 🟡 Coming soon.
+: 🟢 Supported.
 
 [`EventTarget`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)
-: 🟡 Coming soon.
+: 🟢 Supported.
 
 [`exports`](https://nodejs.org/api/globals.html#exports)
-: 🟢 Fully implemented.
+: 🟢 Supported.
 
 [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/fetch)
 : 🟡 Coming soon.
@@ -232,7 +235,7 @@ The table below lists all globals implemented by Node.js and Bun's current compa
 : 🔴 Not implemented.
 
 [`global`](https://nodejs.org/api/globals.html#global)
-: 🟢 Implemented. This is an object containing all objects in the global namespace. It's rarely referenced directly, as its contents are available without an additional prefix, e.g. `__dirname` instead of `global.__dirname`.
+: 🟢 Supported. This is an object containing all objects in the global namespace. It's rarely referenced directly, as its contents are available without an additional prefix, e.g. `__dirname` instead of `global.__dirname`.
 
 [`globalThis`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis)
 : 🟢 Aliases to `global`.
@@ -250,7 +253,7 @@ The table below lists all globals implemented by Node.js and Bun's current compa
 : 🔴 Not implemented.
 
 [`module`](https://nodejs.org/api/globals.html#module)
-: 🟢 Fully implemented.
+: 🟢 Supported.
 
 [`PerformanceEntry`](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceEntry)
 : 🔴 Not implemented.
@@ -298,7 +301,7 @@ The table below lists all globals implemented by Node.js and Bun's current compa
 : 🔴 Not implemented.
 
 [`require()`](https://nodejs.org/api/globals.html#require)
-: 🟢 Fully implemented, including [`require.main`](https://nodejs.org/api/modules.html#requiremain), [`require.cache`](https://nodejs.org/api/modules.html#requirecache), [`require.resolve`](https://nodejs.org/api/modules.html#requireresolverequest-options)
+: 🟢 Supported, including [`require.main`](https://nodejs.org/api/modules.html#requiremain), [`require.cache`](https://nodejs.org/api/modules.html#requirecache), [`require.resolve`](https://nodejs.org/api/modules.html#requireresolverequest-options)
 
 [`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response)
 : 🔴 Not implemented.
@@ -310,13 +313,13 @@ The table below lists all globals implemented by Node.js and Bun's current compa
 : 🟡 Coming soon.
 
 [`setInterval()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval)
-: 🟡 Coming soon.
+: 🟢 Supported.
 
 [`setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout)
-: 🟡 Coming soon.
+: 🟢 Supported.
 
 [`structuredClone()`](https://developer.mozilla.org/en-US/docs/Web/API/structuredClone)
-: 🟢 Fully implemented.
+: 🟢 Supported.
 
 [`SubtleCrypto`](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto)
 : 🔴 Not implemented.
@@ -343,13 +346,13 @@ The table below lists all globals implemented by Node.js and Bun's current compa
 : 🔴 Not implemented.
 
 [`URL`](https://developer.mozilla.org/en-US/docs/Web/API/URL)
-: 🟢 Fully implemented; approaches full compliance.
+: 🟢 Supported; approaches full compliance.
 
 [`URLSearchParams`](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
-: 🟡 Coming soon.
+: 🟢 Supported.
 
 [`WebAssembly`](https://nodejs.org/api/globals.html#webassembly)
-: 🟢 Fully implemented.
+: 🟢 Supported.
 
 [`WritableStream`](https://developer.mozilla.org/en-US/docs/Web/API/WritableStream)
 : 🔴 Not implemented.

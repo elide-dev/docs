@@ -2,5 +2,13 @@
 <!DOCTYPE vars SYSTEM "https://resources.jetbrains.com/writerside/1.0/vars.dtd">
 <vars>
     <var name="product" value="Elide"/>
+    <var name="elideDocsSite" value="https://docs.elide.dev"/>
+    <var name="elideSite" value="https://elide.dev"/>
+    <var name="elideGitHubOrg" value="https://github.com/elide-dev"/>
+    <var name="elideGitHubRepo" value="https://github.com/elide-dev/elide"/>
+    <var name="elideGitHubRepoSrc" value="https://github.com/elide-dev/elide/blob/main"/>
+    <var name="elideGitHubIssues" value="https://github.com/elide-dev/elide/issues"/>
+    <var name="elideGitHubIssuesNew" value="https://github.com/elide-dev/elide/issues/new"/>
+    <var name="elideGitHubDiscussions" value="https://github.com/elide-dev/discussions"/>
     <var name="frameworkDocs" value="https://docs.elide.dev/apidocs/" />
 </vars>

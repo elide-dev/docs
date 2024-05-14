@@ -5,4 +5,5 @@
     <category id="tutorialSeries" name="Continue this series" order="1" />
     <category id="referenceDocs" name="Reference documentation" order="2"/>
     <category id="wrs" name="Writerside documentation" order="3"/>
+    <category id="gettingStarted" name="Getting Started with %product%" order="4" />
 </categories>

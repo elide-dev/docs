@@ -1,24 +1,39 @@
+---
+switcher-label: Imports
+---
+
 # Assertions
 
 API support and documentation for the `node:assert` module.
 
-<tabs>
-    <tab title="ESM">
-        <code-block lang="javascript">import assert from "node:assert"</code-block>
-    </tab>
-    <tab title="CJS">
-        <code-block lang="javascript">const assert = require("node:assert")</code-block>
-    </tab>
-</tabs>
+<tldr>
+    <p>Module: <code>node:assert</code></p>
+    <p>Support: <img style="inline" src="https://img.shields.io/badge/-beta-purple" /></p>
+    <p>Docs: <a href="https://nodejs.org/api/assert.html">Node.js Assertion Docs</a></p>
+</tldr>
 
-| Specification | Module        | Support                                            | Documentation                                                |
-|---------------|---------------|----------------------------------------------------|--------------------------------------------------------------|
-| Node.js API   | `node:assert` | ![Beta](https://img.shields.io/badge/-beta-purple) | [Node.js Assertion Docs](https://nodejs.org/api/assert.html) |
+<code-block lang="javascript" switcher-key="ESM">import assert from "node:assert"</code-block>
+<code-block lang="javascript" switcher-key="CJS">const assert = require("node:assert")</code-block>
 
-## Methods
+## Modules
+
+| Status                  | Module               | Docs                                                                          | Notes                   |
+|-------------------------|----------------------|-------------------------------------------------------------------------------|-------------------------|
+| 🟢 Supported.           | `node:assert`        | [Assertions](https://nodejs.org/api/assert.html)                              | Standard assertions.    |
+| 🔴 Not yet implemented. | `node:assert/strict` | [Strict Assertions](https://nodejs.org/api/assert.html#strict-assertion-mode) | Strict-mode assertions. |
+
+## `assert` | Classes
+
+[`AssertionError`](https://nodejs.org/api/assert.html#new-assertassertionerroroptions)
+: 🟢 Supported.
+
+[`CallTracker`](https://nodejs.org/api/assert.html#new-assertassertionerroroptions)
+: 🔴 Not implemented; deprecated at Node.js v20.
+
+## `assert` | Methods
 
 [`assert(value[, message])`](https://nodejs.org/api/assert.html#assertvalue-message)
-: 🟢 Supported. An alias of `assert.ok()`.
+: 🟡 Implemented; awaiting bugfix for default module exports. Use `assert.ok()` in the meantime.
 
 [`assert.deepEqual(actual, expected[, message])`](https://nodejs.org/api/assert.html#assertdeepequalactual-expected-message)
 : 🔴 Not yet implemented.

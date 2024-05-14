@@ -1,45 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
 <rules>
-    <!-- format is as follows
-    <rule id="<unique id>">
-        <accepts>page.html</accepts>
-    </rule>
-    -->
-    <rule id="34671e9e">
-        <description>Created after removal of "Server Starter" from Elide</description>
-        <accepts>Server-Starter.html</accepts>
-    </rule>
-    <rule id="65b69b0">
-        <description>Created after removal of "Language Guides" from Elide</description>
-        <accepts>Section-Starting-Page.html</accepts>
-    </rule>
-    <rule id="18f4cf26">
-        <description>Created after removal of "Guides by Engine" from Elide</description>
-        <accepts>Guides-by-Language.html</accepts>
-    </rule>
-    <rule id="5c5f41e5">
-        <description>Created after removal of "Code Samples" from Elide</description>
-        <accepts>Samples.html</accepts>
-    </rule>
-    <rule id="8373fb4">
-        <description>Created after removal of "Reference" from Elide</description>
-        <accepts>Reference.html</accepts>
-    </rule>
-    <rule id="1e57e77d">
-        <description>Created after removal of "Reference" from Elide</description>
-        <accepts>Reference.html</accepts>
-    </rule>
-    <rule id="5b129b60">
-        <description>Created after removal of "Starter" from Elide</description>
-        <accepts>starter.html</accepts>
-    </rule>
-    <rule id="28913f73">
-        <description>Created after removal of "Template" from Elide</description>
-        <accepts>node-template.html</accepts>
-    </rule>
-    <rule id="41ba8e48">
-        <description>Created after removal of "Debugger" from Elide</description>
-        <accepts>node-debugger.html</accepts>
-    </rule>
 </rules>
