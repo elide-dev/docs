@@ -76,6 +76,7 @@
         <toc-element topic="Framework-Samples.md"/>
         <toc-element toc-title="Framework Modules">
             <toc-element topic="Elide-Base.md"/>
+            <toc-element topic="Elide-Core.md"/>
         </toc-element>
         <toc-element toc-title="Advanced Guides">
             <toc-element toc-title="Embedding Elide" />

@@ -3,4 +3,5 @@
 <terms>
     <term name="GUI">Graphical User Interface</term>
     <term name="HTTP">Hypertext Transfer Protocol</term>
+    <term name="KotlinX">Kotlin Extension libraries, including Kotlin Coroutines, Kotlin Serialization, and so on</term>
 </terms>

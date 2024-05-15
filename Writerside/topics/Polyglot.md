@@ -85,6 +85,9 @@ or CPython.
 > cross-language calling overhead.
 > {style="note"}
 
+When people see a demo like this, the "polyglot" concept immediately begins to make sense. That's great, but how do 2+
+languages interact in one context?
+
 ## Let's do some exercises
 
 Now that we are thinking in a roughly-polyglot way, let's test the waters with some basics: many applications have to

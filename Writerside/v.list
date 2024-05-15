@@ -2,6 +2,7 @@
 <!DOCTYPE vars SYSTEM "https://resources.jetbrains.com/writerside/1.0/vars.dtd">
 <vars>
     <var name="product" value="Elide"/>
+    <var name="version" value="1.0.0-alpha9"/>
     <var name="elideDocsSite" value="https://docs.elide.dev"/>
     <var name="elideSite" value="https://elide.dev"/>
     <var name="elideGitHubOrg" value="https://github.com/elide-dev"/>

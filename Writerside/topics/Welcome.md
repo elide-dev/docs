@@ -14,7 +14,8 @@ workflow
 
 <video src="https://youtu.be/Txl9ryfbCw4" preview-src="launch-cover.png" />
 
-<br />
+> %product% is a multi-language software runtime.
+
 <br />
 
 <seealso style="cards">
