@@ -52,7 +52,7 @@ The %product% Base module depends only on Kotlin Stdlib, KotlinX, and [%product%
         implementation framework.elide.base
         </code-block>
         <p><b>Version Catalog</b></p>
-        <code-block lang="toml">
+        <code-block lang="text">
         elide-base = { module = "dev.elide:elide-base", version.ref = "elide" }
         </code-block>
     </tab>

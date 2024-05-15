@@ -52,7 +52,7 @@ Core depends only on Kotlin Stdlib and KotlinX.
         implementation framework.elide.core
         </code-block>
         <p><b>Version Catalog</b></p>
-        <code-block lang="toml">
+        <code-block lang="text">
         elide-core = { module = "dev.elide:elide-core", version.ref = "elide" }
         </code-block>
     </tab>
