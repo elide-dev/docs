@@ -26,10 +26,8 @@ Core depends only on Kotlin Stdlib and KotlinX.
 
 ## What's in the box?
 
-<list>
-    <li>Encoders for Hex and Base64</li>
-    <li>Annotations used throughout %product% and guest apps</li>
-</list>
+- Encoders for Hex and Base64
+- Annotations used throughout %product% and guest apps
 
 ## Usage
 

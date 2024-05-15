@@ -26,10 +26,8 @@ The %product% Base module depends only on Kotlin Stdlib, KotlinX, and [%product%
 
 ## What's in the box?
 
-<list>
-    <li>Encoders for Hex and Base64</li>
-    <li>Cryptography and UUID-gen utilities</li>
-</list>
+- Encoders for Hex and Base64
+- Cryptography and UUID-gen utilities
 
 ## Usage
 
