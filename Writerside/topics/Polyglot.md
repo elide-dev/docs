@@ -28,6 +28,9 @@ def call_hello():
   say_hello("%product%")
 ```
 
+> This demo does not work yet; please bear with us while our features and docs catch up to each other.
+> {style="warning"}
+
 This is pretty easy to follow so far. We've defined that `sayHello` function in JavaScript, and now we are calling that
 same function from a new function, called `callHello`, in Python.
 
@@ -77,6 +80,9 @@ def get_name():
 def call_hello_look_ma_try_this_with_serialization():
   say_hello(get_name)
 ```
+
+> This demo does not work yet; please bear with us while our features and docs catch up to each other.
+> {style="warning"}
 
 %product% will happily run this code. This is impossible with JSON, or Protobuf, or any other trickery on top of Node.js
 or CPython.

@@ -32,7 +32,7 @@
 
         <!-- SEO -->
         <generate-canonicals>true</generate-canonicals>
-        <noindex-content>false</noindex-content>
+        <noindex-content>true</noindex-content>
         <og-twitter>https://twitter.com/elide_dev</og-twitter>
         <!-- <og-image></og-image> -->
 
@@ -59,7 +59,7 @@
 
     <build-profile instance="e">
         <variables>
-            <noindex-content>false</noindex-content>
+            <noindex-content>true</noindex-content>
         </variables>
     </build-profile>
 
