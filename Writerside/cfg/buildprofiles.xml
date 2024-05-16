@@ -25,14 +25,13 @@
         <browser-edits-url>https://github.com/elide-dev/docs/edit/main/Writerside/topics/</browser-edits-url>
 
         <!-- Feedback Widget -->
-        <feedback-widget>true</feedback-widget>
+        <feedback-widget>false</feedback-widget>
         <feedbackRequireEmail>false</feedbackRequireEmail>
         <feedback-url>https://help.elide.dev</feedback-url>
         <feedback-support>https://help.elide.dev</feedback-support>
 
         <!-- SEO -->
         <generate-canonicals>true</generate-canonicals>
-        <noindex-content>true</noindex-content>
         <og-twitter>https://twitter.com/elide_dev</og-twitter>
         <!-- <og-image></og-image> -->
 
@@ -59,7 +58,6 @@
 
     <build-profile instance="e">
         <variables>
-            <noindex-content>true</noindex-content>
             <offline-docs>true</offline-docs>
         </variables>
     </build-profile>
