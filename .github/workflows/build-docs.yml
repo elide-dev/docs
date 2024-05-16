@@ -91,11 +91,11 @@ jobs:
           mkdir -p dir/apidocs/
           cp -fv apidocs.tgz dir/apidocs/apidocs.tgz
           cd dir/apidocs/
-          tar -xzf apidocs.tgz
+          tar --strip-components=1 -xzf apidocs.tgz
           rm -fv apidocs.tgz
           cd ../..
           echo "API docs unpacked."
-          tree -L 2
+          tree -L 3
 
       - name: Package and upload Pages artifact
         uses: actions/upload-pages-artifact@v3
