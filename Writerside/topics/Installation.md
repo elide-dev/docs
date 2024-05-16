@@ -121,6 +121,16 @@ Follow the steps below if you're having trouble installing %product%:
     </step>
 </procedure>
 
+## Container Images
+
+%product% ships as container images, too. You can use %product% from Docker:
+
+```Console
+docker run --rm -it ghcr.io/elide-dev/elide
+```
+
+> Read more about container images provided by %product% on the [Container Images](Container-Images.md) page.
+
 ## Known Limitations
 
 On certain OS or OS/arch pairs, %product% may not have full support for every feature. Consult the sections below for
@@ -142,7 +152,8 @@ Certain features are not supported on macOS yet:
 
 ## Framework Installation
 
-
+To use %product% as a JVM framework, see the [%product% Framework](Elide-Framework.md) docs. Generally speaking, library
+modules are installed as Maven dependencies.
 
 <seealso>
     <category ref="gettingStarted">
