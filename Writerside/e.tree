@@ -4,10 +4,10 @@
 
 <instance-profile id="e"
                  name="Elide"
-                 start-page="Welcome.md"
+                 start-page="Index.md"
                  status="eap">
 
-    <toc-element topic="Welcome.md"/>
+    <toc-element topic="Index.md"/>
     <toc-element topic="Installation.md"/>
     <toc-element topic="GettingStarted.md"/>
     <toc-element topic="Language-Guides.topic">
