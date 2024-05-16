@@ -8,7 +8,7 @@
         <algolia-api-key>abebcedd3851d40b84a9da43b71553bf</algolia-api-key>
 
         <!-- Web -->
-        <web-root>https://alpha.docs.elide.dev</web-root>
+        <web-root>https://docs.elide.dev</web-root>
         <product-web-url>https://elide.dev</product-web-url>
 
         <!-- Style & Images -->
@@ -47,7 +47,7 @@
 
         <!-- Downloads -->
         <download-title>Downloads</download-title>
-        <download-page>https://alpha.docs.elide.dev/installation.html</download-page>
+        <download-page>https://docs.elide.dev/installation.html</download-page>
         <showDownloadButton>true</showDownloadButton>
 
         <!-- General Settings -->
