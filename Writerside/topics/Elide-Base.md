@@ -7,10 +7,10 @@ switcher-label: Gradle Dialect
 <tldr>
     <p>Baseline multi-platform utilities</p>
     <p columns="2">
-        <img style="inline" src="https://img.shields.io/badge/status-beta-purple" />
-        <img style="inline" src="https://img.shields.io/badge/platforms-all-white" />
+        <img alt="Status: Beta" style="inline" src="https://img.shields.io/badge/status-beta-purple" />
+        <img alt="Platforms: All" style="inline" src="https://img.shields.io/badge/platforms-all-white" />
     </p>
-    <a target="_blank" href="https://docs.elide.dev/apidocs/packages/base/index.html">API Docs</a>
+    <a target="_blank" href="%frameworkDocs%packages/base/index.html">API Docs</a>
     <a target="_blank" href="https://search.maven.org/search?q=g:dev.elide%20base">Maven Central</a>
     <br />
     <p><b>Module:</b></p>
@@ -50,6 +50,7 @@ The %product% Base module depends only on Kotlin Stdlib, KotlinX, and [%product%
         implementation framework.elide.base
         </code-block>
         <p><b>Version Catalog</b></p>
+        <!--suppress WrsCodeBlockWidthInspection -->
         <code-block lang="text">
         elide-base = { module = "dev.elide:elide-base", version.ref = "elide" }
         </code-block>

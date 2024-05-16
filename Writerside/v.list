@@ -11,5 +11,5 @@
     <var name="elideGitHubIssues" value="https://github.com/elide-dev/elide/issues"/>
     <var name="elideGitHubIssuesNew" value="https://github.com/elide-dev/elide/issues/new"/>
     <var name="elideGitHubDiscussions" value="https://github.com/elide-dev/discussions"/>
-    <var name="frameworkDocs" value="https://docs.elide.dev/apidocs/" />
+    <var name="frameworkDocs" value="https://docs.elide.dev/api/" />
 </vars>

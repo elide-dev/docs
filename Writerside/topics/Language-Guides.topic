@@ -13,7 +13,7 @@
 
         <spotlight>
             <a href="Polyglot.md" type="start" summary="Thinking in multiple languages">Polyglot 101</a>
-            <a href="https://docs.elide.dev/apidocs/" type="search" summary="API and reference documentation">Reference</a>
+            <a href="%frameworkDocs%" type="search" summary="API and reference documentation">Reference</a>
         </spotlight>
 
         <primary>

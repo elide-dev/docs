@@ -7,10 +7,10 @@ switcher-label: Gradle Dialect
 <tldr>
     <p>Core utilities and annotations</p>
     <p columns="2">
-        <img style="inline" src="https://img.shields.io/badge/status-beta-purple" />
-        <img style="inline" src="https://img.shields.io/badge/platforms-all-white" />
+        <img alt="Status: Beta" style="inline" src="https://img.shields.io/badge/status-beta-purple" />
+        <img alt="Platforms: All" style="inline" src="https://img.shields.io/badge/platforms-all-white" />
     </p>
-    <a target="_blank" href="https://docs.elide.dev/apidocs/packages/core/index.html">API Docs</a>
+    <a target="_blank" href="%frameworkDocs%packages/core/index.html">API Docs</a>
     <a target="_blank" href="https://search.maven.org/search?q=g:dev.elide%20core">Maven Central</a>
     <br />
     <p><b>Module:</b></p>
@@ -50,6 +50,7 @@ Core depends only on Kotlin Stdlib and KotlinX.
         implementation framework.elide.core
         </code-block>
         <p><b>Version Catalog</b></p>
+        <!--suppress WrsCodeBlockWidthInspection -->
         <code-block lang="text">
         elide-core = { module = "dev.elide:elide-core", version.ref = "elide" }
         </code-block>
