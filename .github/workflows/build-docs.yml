@@ -34,6 +34,10 @@ jobs:
           artifact: ${{ env.ARTIFACT }}
           docker-version: ${{ env.DOCKER_VERSION }}
 
+      - name: Copy API docs to artifacts
+        run: |
+          cp -fv ./API/latest.tgz ./artifacts/apidocs.tgz
+
       - name: Save artifact with build results
         uses: actions/upload-artifact@v4
         with:
@@ -43,6 +47,7 @@ jobs:
             artifacts/report.json
             artifacts/report.html
             artifacts/algolia-indexes-E.zip
+            artifacts/apidocs.tgz
           retention-days: 7
 
   test:
@@ -80,6 +85,17 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
+
+      - name: Create API docs layout
+        run:
+          mkdir -p dir/apidocs/
+          cp -fv apidocs.tgz dir/apidocs/apidocs.tgz
+          cd dir/apidocs/
+          tar -xzf apidocs.tgz
+          rm -fv apidocs.tgz
+          cd ../..
+          echo "API docs unpacked."
+          tree -L 2
 
       - name: Package and upload Pages artifact
         uses: actions/upload-pages-artifact@v3
