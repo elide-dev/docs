@@ -7,6 +7,7 @@
                  start-page="Index.md"
                  status="eap">
 
+    <toc-element topic="Contributors.md"/>
     <toc-element topic="Index.md"/>
     <toc-element topic="Installation.md"/>
     <toc-element topic="GettingStarted.md"/>
