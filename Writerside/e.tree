@@ -117,6 +117,7 @@
         <toc-element toc-title="Licensing" />
     </toc-element>
     <toc-element topic="CLI-Reference.md"/>
+    <toc-element topic="Contributors.md"/>
     <toc-element toc-title="API Reference" href="%frameworkDocs%" />
     <toc-element toc-title="Elide on GitHub" href="https://github.com/elide-dev" />
 </instance-profile>
