@@ -33,6 +33,7 @@
         <!-- SEO -->
         <generate-canonicals>true</generate-canonicals>
         <og-twitter>https://twitter.com/elide_dev</og-twitter>
+        <noindex-content>false</noindex-content>
         <!-- <og-image></og-image> -->
 
         <!-- HTML Snippets -->
@@ -56,12 +57,6 @@
 
     <sitemap priority="0.35" change-frequency="monthly"/>
 
-    <build-profile instance="e">
-        <variables>
-            <offline-docs>true</offline-docs>
-        </variables>
-    </build-profile>
-
     <icons>
         <shared-src>icons</shared-src>
     </icons>
@@ -72,4 +67,13 @@
         <link href="https://elide.dev">Website</link>
         <link href="https://github.com/elide-dev">%product% on GitHub</link>
     </footer>
+
+    <!-- Instance: Elide Docs -->
+
+    <build-profile instance="e">
+        <variables>
+            <offline-docs>true</offline-docs>
+            <noindex-content>false</noindex-content>
+        </variables>
+    </build-profile>
 </buildprofiles>
