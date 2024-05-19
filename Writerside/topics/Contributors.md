@@ -10,5 +10,6 @@ We thank all the contributors who have helped in the development of this project
 - [LaTanya Donaldson](https://github.com/ldonald067)
 - [Sam Gammon](https://github.com/sgammon)
 - [Sayyid Yofa](https://github.com/sayyidyofa)
+- [Sebastian Schuberth](https://github.com/sschuberth)
 - [Tyler Porras](https://github.com/tylerporras)
 - [Zander Lewis](https://github.com/WolfTheDeveloper)
