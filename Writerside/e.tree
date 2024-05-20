@@ -11,6 +11,7 @@
     <toc-element topic="Installation.md"/>
     <toc-element topic="GettingStarted.md"/>
     <toc-element topic="Language-Guides.topic">
+        <toc-element topic="Compatibility.md"/>
         <toc-element topic="Polyglot.md">
             <toc-element topic="101-Environment.md"/>
             <toc-element topic="101-Filesystem.md"/>
@@ -24,6 +25,7 @@
         </toc-element>
         <toc-element toc-title="Guides by Language">
             <toc-element topic="JavaScript.md">
+                <toc-element topic="TypeScript.md"/>
                 <toc-element topic="Node-API.md">
                     <toc-element topic="node-assert.md"/>
                     <toc-element toc-title="Async Hooks" />
@@ -66,9 +68,9 @@
                     <toc-element toc-title="Web Streams API" />
                 </toc-element>
             </toc-element>
-            <toc-element topic="TypeScript.md"/>
             <toc-element topic="Python.md"/>
             <toc-element topic="Ruby.md"/>
+            <toc-element topic="Pkl.md"/>
             <toc-element topic="Experimental.md"/>
         </toc-element>
         <toc-element topic="Container-Images.md"/>
