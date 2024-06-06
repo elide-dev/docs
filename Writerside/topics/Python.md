@@ -3,6 +3,9 @@
 %product% can run Python applications under the Python 3 language standard; %product% behaves nearly identically to
 CPython.
 
+```Console
+elide run --python ...
+```
 ```Python
 def hello():
   print("Elide can run Python!")

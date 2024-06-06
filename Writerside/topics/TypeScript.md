@@ -2,6 +2,9 @@
 
 %product% can run TypeScript using the built-in [JavaScript engine](JavaScript.md).
 
+```Console
+elide run --typescript ...
+```
 ```Typescript
 export function hello(name: string): void {
   console.log(`Hello from TypeScript, ${name}!`)
