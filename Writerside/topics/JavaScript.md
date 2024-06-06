@@ -3,6 +3,9 @@
 %product% can execute JavaScript, just like Node.js, Deno, or Bun. Similar to other popular JavaScript runtimes,
 %product% strives for Node API compatibility.
 
+```Console
+elide run --javascript ...
+```
 ```Javascript
 export default function hello() {
   console.log("Elide can run JavaScript!")

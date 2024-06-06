@@ -2,6 +2,9 @@
 
 %product% can execute your Ruby applications, while integrating with other languages like JavaScript and Python.
 
+```Console
+elide run --ruby ...
+```
 ```Ruby
 def hello
   puts "Elide can run Ruby!"

@@ -67,6 +67,7 @@
                     <toc-element toc-title="Web Crypto API" />
                     <toc-element toc-title="Web Streams API" />
                 </toc-element>
+                <toc-element topic="javascript-sqlite.md"/>
             </toc-element>
             <toc-element topic="Python.md"/>
             <toc-element topic="Ruby.md"/>
@@ -108,6 +109,7 @@
         </toc-element>
     </toc-element>
     <toc-element toc-title="Release Notes">
+        <toc-element toc-title="1.0.0-alpha10" href="https://github.com/elide-dev/elide/releases/tag/1.0.0-alpha10" />
         <toc-element toc-title="1.0.0-alpha9" href="https://github.com/elide-dev/elide/releases/tag/1.0.0-alpha9" />
         <toc-element toc-title="1.0.0-alpha8" href="https://github.com/elide-dev/elide/releases/tag/1.0.0-alpha8" />
         <toc-element toc-title="1.0.0-alpha7" href="https://github.com/elide-dev/elide/releases/tag/1.0.0-alpha7" />
