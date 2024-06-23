@@ -63,8 +63,8 @@
                 </toc-element>
                 <toc-element toc-title="Web &amp; JavaScript APIs">
                     <toc-element topic="JavaScript-Encoding-API.md"/>
+                    <toc-element topic="JavaScript-URL-API.md"/>
                     <toc-element toc-title="Fetch API" />
-                    <toc-element toc-title="URL API" />
                     <toc-element toc-title="Web Crypto API" />
                     <toc-element toc-title="Web Streams API" />
                 </toc-element>

@@ -17,7 +17,7 @@ Elide supports several encodings via the `TextEncoder` and `TextDecoder` constru
 | 🔴 Not supported yet. | `UTF_32`         | `utf-32`         |                  |
 | 🔴 Not supported yet. | (Other charsets) |                  |                  |
 
-## Encoding API | Classes
+## Classes
 
 [`TextEncoder`](#textencoder) Encode strings into byte array representations
 : 🟢 Supported.
