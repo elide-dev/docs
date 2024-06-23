@@ -6,7 +6,7 @@ switcher-label: Imports
 
 <tldr>
     <p>Module: <code>elide:sqlite</code></p>
-    <p>Support: <img style="inline" src="https://img.shields.io/badge/-beta-purple" /></p>
+    <p>Support: <img style="inline" src="https://img.shields.io/badge/-beta-purple" alt="beta" /></p>
     <p>Docs: <a href="https://bun.sh/docs/api/sqlite">Bun SQLite Docs</a></p>
 </tldr>
 
@@ -27,6 +27,10 @@ db.query("SELECT * FROM test;").get()["name"]
 
 > Bindings are on the way for Python and Ruby.
 > {style="note"}
+
+## SQLite Examples
+
+Coming soon.
 
 ## `sqlite` | Classes
 
