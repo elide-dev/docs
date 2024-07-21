@@ -30,7 +30,7 @@
                     <toc-element topic="node-assert.md"/>
                     <toc-element toc-title="Async Hooks" />
                     <toc-element toc-title="Buffer" />
-                    <toc-element toc-title="Child Process" />
+                    <toc-element topic="node-childprocess.md"/>
                     <toc-element toc-title="Crypto" />
                     <toc-element toc-title="DNS" />
                     <toc-element topic="node-events.md"/>
