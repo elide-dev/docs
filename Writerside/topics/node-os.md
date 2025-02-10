@@ -47,7 +47,7 @@ API support and documentation for the `node:os` module.
 : 🟢 Supported.
 
 [`getPriority([pid])`](https://nodejs.org/api/os.html#osgetprioritypid)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`homedir()`](https://nodejs.org/api/os.html#oshomedir)
 : 🟢 Supported.
@@ -71,7 +71,7 @@ API support and documentation for the `node:os` module.
 : 🟡 Implemented; not yet compliant.
 
 [`setPriority([pid, ]priority)`](https://nodejs.org/api/os.html#ossetprioritypid-priority)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`tmpdir()`](https://nodejs.org/api/os.html#ostmpdir)
 : 🟢 Supported.
@@ -86,15 +86,7 @@ API support and documentation for the `node:os` module.
 : 🟢 Supported.
 
 [`userInfo([options])`](https://nodejs.org/api/os.html#osuserinfooptions)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`version()`](https://nodejs.org/api/os.html#osversion)
 : 🟡 Implemented; not yet compliant.
-
---
-
-[`appendFile(path, data[, options], callback)`](https://nodejs.org/api/fs.html#fsappendfilepath-data-options-callback)
-: 🔴 Not implemented.
-
-[`readFile(path[, options], callback)`](https://nodejs.org/api/fs.html#fsreadfilepath-options-callback)
-: 🟡 Supported for UTF-8 reads. Binary reads do not work yet.
