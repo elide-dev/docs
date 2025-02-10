@@ -29,7 +29,7 @@
                 <toc-element topic="Node-API.md">
                     <toc-element topic="node-assert.md"/>
                     <toc-element toc-title="Async Hooks" />
-                    <toc-element toc-title="Buffer" />
+                    <toc-element topic="node-buffer.md" />
                     <toc-element topic="node-childprocess.md"/>
                     <toc-element toc-title="Crypto" />
                     <toc-element toc-title="DNS" />
@@ -59,7 +59,7 @@
                     <toc-element toc-title="VM" />
                     <toc-element toc-title="WASI" />
                     <toc-element toc-title="Worker threads" />
-                    <toc-element toc-title="Zlib" />
+                    <toc-element topic="node-zlib.md" />
                 </toc-element>
                 <toc-element toc-title="Web &amp; JavaScript APIs">
                     <toc-element topic="JavaScript-Encoding-API.md"/>
