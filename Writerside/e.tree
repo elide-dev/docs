@@ -110,6 +110,7 @@
         </toc-element>
     </toc-element>
     <toc-element toc-title="Release Notes">
+        <toc-element toc-title="1.0.0-alpha13" href="https://github.com/elide-dev/elide/releases/tag/1.0.0-alpha13" />
         <toc-element toc-title="1.0.0-alpha12" href="https://github.com/elide-dev/elide/releases/tag/1.0.0-alpha12" />
         <toc-element toc-title="1.0.0-alpha11" href="https://github.com/elide-dev/elide/releases/tag/1.0.0-alpha11" />
         <toc-element toc-title="1.0.0-alpha10" href="https://github.com/elide-dev/elide/releases/tag/1.0.0-alpha10" />
