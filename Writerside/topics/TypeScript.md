@@ -50,9 +50,14 @@ runs for a given TypeScript source root, since %product% aggressively caches AST
 
 As a result, TypeScript execution is often nearly cost-free compared to regular JavaScript:
 
-![bench-js-vs-ts.png](../../Creative/images/benchmarks/bench-js-vs-ts.png)
+![bench-js-vs-ts.png](bench-js-vs-ts.png)
 
 > Executing a non-trivial JavaScript sample vs. an identical TypeScript sample.
+{style="note"}
+
+<img src="oxc-parsing.svg" width="600" alt="OXC parsing speed compared to SWC and Biome: it's the fastest" />
+
+> Parsing speed comparison from OXC's own benchmarks.
 {style="note"}
 
 [0]: https://www.typescriptlang.org/

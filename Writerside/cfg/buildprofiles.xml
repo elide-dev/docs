@@ -3,9 +3,9 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <variables>
         <!-- Search -->
-        <algolia-id>GPZ3MWT2LQ</algolia-id>
+        <algolia-id>6PJZ7B6YKU</algolia-id>
         <algolia-index>dev_elide_docs</algolia-index>
-        <algolia-api-key>abebcedd3851d40b84a9da43b71553bf</algolia-api-key>
+        <algolia-api-key>0972c9bdc10f2fa920b737534bd6bb96</algolia-api-key>
 
         <!-- Web -->
         <web-root>https://docs.elide.dev</web-root>

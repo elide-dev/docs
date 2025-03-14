@@ -20,12 +20,16 @@
 - **[Micronaut][6] wires together %product%** internally, with build-time dependency injection (DI). This architecture
   is what keeps startup time fast while preserving modularity.
 
-## Specific topics
+### Specific Topics
 
-Read more about:
+See dedicated pages for [](Security.md) and [](Performance.md).
 
-- **[](Security.md)**
-- **[](Performance.md)**
+<seealso style="cards">
+    <category ref="architecture">
+        <a summary="How %product% performs" href="Performance.md" />
+        <a summary="How %product% remains secure" href="Security.md" />
+    </category>
+</seealso>
 
 ## How %product% works
 

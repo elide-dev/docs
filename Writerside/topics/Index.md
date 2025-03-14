@@ -48,14 +48,18 @@ elide ./hello.ts
 {"greeting": "Hello from Python + TypeScript!"}
 </code-block>
 
+<br />
+
 ⏫ **%product% is extremely fast.**
 
 - ☑️ %product% runs your Python code **up to 3x faster than CPython**.
 - ☑️ %product% runs your TypeScript code **faster than Node can run JavaScript**.
-- ☑️ %product% runs your HTTP endpoints at up to **800,000 requests per second**.
+- ☑️ %product% runs your HTTP endpoints at up to **800k requests per second**. That's [really fast](Performance.md).
 
 > %product% is independently benchmarked by TechEmpower. [Latest results][2]
 {style="note"}
+
+<br />
 
 🧘 **%product% supports the APIs you already know and the tools you already love.**
 
@@ -63,14 +67,16 @@ elide ./hello.ts
 - ☑️ Like other JS runtimes, %product% **supports a large slice of the [Node API](Node-API.md)**.
 - ☑️ Works with **NPM and PyPI**, **CJS** and **ESM**.
 - ☑️ Insanely fast **dependency installation** (via [orogene][0] and [uv][1]).
-
-🔋 **%product% comes with batteries included.**
-
 - ☑️ %product% supports embedded [SQLite](javascript-sqlite.md).
-- ☑️ %product% runs your HTTP endpoints at up to **800,000 requests per second** (see [](Performance.md)).
 
-> %product% is independently benchmarked by TechEmpower. [Latest results][2]
-{style="note"}
+<br />
+
+🔒 **%product% provides strong security boundaries and memory safety by default.**
+
+- ☑️ Written in memory-safe [Kotlin](https://kotlinlang.org) and [Rust](https://rustlang.org).
+- ☑️ Strong filesystem and environment isolation.
+- ☑️ Virtualized filesystem support (mount a tarball as your fs!).
+- ☑️ Extensively tested: over 10,000 unit & conformance tests, in addition to [Test262][4].
 
 ## %product% is in beta
 
