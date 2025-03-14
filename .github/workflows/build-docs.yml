@@ -11,12 +11,12 @@ permissions:
 env:
   INSTANCE: 'Writerside/e'
   ARTIFACT: 'webHelpE2-all.zip'
-  DOCKER_VERSION: '241.15989'
+  DOCKER_VERSION: '243.22562'
   ALGOLIA_ARTIFACT: 'algolia-indexes-E.zip'
   ALGOLIA_APP_NAME: 'GPZ3MWT2LQ'
   ALGOLIA_INDEX_NAME: 'dev_elide_docs'
   CONFIG_JSON_PRODUCT: 'E'
-  CONFIG_JSON_VERSION: '1.0.0-alpha13'
+  CONFIG_JSON_VERSION: '1.0.0-beta1'
 
 jobs:
   build:
