@@ -2,6 +2,9 @@
 
 %product% can execute your Ruby applications, while integrating with other languages like JavaScript and Python.
 
+> Elide ships with Ruby disabled by default. This restriction will be lifted in a future release.
+{style="warning"}
+
 ```Console
 elide run --ruby ...
 ```
@@ -20,13 +23,3 @@ end
 | Standard | [MRI](https://en.wikipedia.org/wiki/Ruby_MRI) `3.2`  |
 | Maturity | ![Alpha](https://img.shields.io/badge/-alpha-blue)   |
 | Engine   | [TruffleRuby](https://github.com/oracle/truffleruby) |
-
-## Glossary
-
-A definition list or a glossary:
-
-First Term
-: This is the definition of the first term.
-
-Second Term
-: This is the definition of the second term.

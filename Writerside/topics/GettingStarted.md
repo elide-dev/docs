@@ -10,8 +10,7 @@ You'll need an installed copy of %product%. Follow the [Installation](Installati
 ## Running some code
 
 %product% can accept a raw string of code or a file to run in any supported language. Best attempts are made to detect
-the [primary language](Execution.md#primary-language) via the source file's extension (`.js` will load a JS VM, `.py` a
-Python VM, etc.).
+the primary language via the source file's extension (`.js` will load a JS VM, `.py` a Python VM, etc.).
 
 1. Let's run a snippet of [JavaScript](JavaScript.md)
 
@@ -81,6 +80,5 @@ elide ruby
         <a href="Installation.md">Installing %product%</a>
         <a href="Polyglot.md">Polyglot 101: Thinking in Multiple Languages</a>
         <a href="Language-Guides.topic">%product% Runtime: Language Guides</a>
-        <a href="Elide-Framework.md">%product% Framework: Using %product% from JVM</a>
     </category>
 </seealso>

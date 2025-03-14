@@ -18,3 +18,17 @@ API support and documentation for the `node:events` module.
 ## Methods
 
 Coming soon.
+
+## `events` | Classes
+
+[`Event`](https://nodejs.org/docs/latest/api/events.html#class-event)
+: 🟡 Partially supported.
+
+[`EventEmitter`](https://nodejs.org/docs/latest/api/events.html#class-eventemitter)
+: 🟡 Partially supported.
+
+[`EventTarget`](https://nodejs.org/docs/latest/api/events.html#class-eventtarget)
+: 🟡 Partially supported.
+
+[`CustomEvent`](https://nodejs.org/docs/latest/api/events.html#class-customevent)
+: 🟢 Supported.

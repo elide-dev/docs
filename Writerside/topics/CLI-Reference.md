@@ -7,16 +7,42 @@
 Syntax:
 
 ```text
-elide [OPTIONS]
-  or:  elide info|help|discord|bug... [OPTIONS]
-  or:  elide srcfile.<js|py|rb|kt|java|wasm|...> [OPTIONS]
-  or:  elide js|kt|jvm|python|ruby|wasm|node|deno [OPTIONS] [FILE]
-  or:  elide run|repl|serve [OPTIONS] [FILE]
-  or:  elide run|repl|serve [OPTIONS] [--code CODE]
-  or:  elide run|repl [OPTIONS]
-  or:  elide run|repl --js [OPTIONS]
-  or:  elide run|repl --language=[JS] [OPTIONS] [FILE]
-  or:  elide run|repl --languages=[JS,PYTHON,...] [OPTIONS] [FILE]
+ Usage:
+    or:  elide info|help|discord|bug... [OPTIONS]
+    or:  elide srcfile.<js|ts|...> [OPTIONS]
+    or:  elide js|node|deno [OPTIONS] [FILE] [ARG...]
+    or:  elide js|node|deno [OPTIONS] [--code CODE]
+    or:  elide run|repl|serve [OPTIONS] [FILE] [ARG...]
+    or:  elide run|repl|serve [OPTIONS] [--code CODE]
+    or:  elide run|repl [OPTIONS]
+    or:  elide run|repl --js [OPTIONS]
+    or:  elide run|repl --language=[JS] [OPTIONS] [FILE] [ARG...]
+    or:  elide run|repl --languages=[JS,PYTHON,...] [OPTIONS] [FILE] [ARG...]
+
+Manage, configure, and run polyglot applications with Elide
+
+Parameters:
+      [FILE]      Source file to run.
+      [ARG...]    Arguments to pass
+
+Options:
+  -h, --help      Show this message and exit.
+  -V, --version   Print version information and exit.
+
+Commands:
+  info                 Show info about the current app and environment
+  help, bug, issue
+                       Report an issue or bug, find help for using Elide
+  run, r, serve, repl
+                       Run a polyglot script, server, or interactive shell
+  pkl
+                       Run the Pkl command-line tools
+  discord              Open or show a Discord invite link
+
+Exit Codes:
+  0   Successful program execution.
+  1    Generic failure (terminal).
+  2    Exception in user code.
 ```
 
 ## Runner Commands

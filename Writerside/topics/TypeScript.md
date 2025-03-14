@@ -3,7 +3,7 @@
 %product% can run TypeScript using the built-in [JavaScript engine](JavaScript.md).
 
 ```Console
-elide run --typescript ...
+elide ./script.{ts,cts,mts}
 ```
 ```Typescript
 export function hello(name: string): void {
@@ -17,20 +17,6 @@ export function hello(name: string): void {
 
 | -------- | ---------------------------------------------------- |
 | Language | **TypeScript**                                       |
-| Standard | `5.4.5`                                              |
-| Maturity | ![Alpha](https://img.shields.io/badge/-alpha-blue)   |
-| Engine   | [GraalJs](https://github.com/oracle/graaljs)         |
-
-## What is product/service/concept
-
-Provide some background and context, explain choices and alternatives.
-
-## Glossary
-
-A definition list or a glossary:
-
-First Term
-: This is the definition of the first term.
-
-Second Term
-: This is the definition of the second term.
+| Standard | `5.8.x`                                              |
+| Maturity | ![Beta](https://img.shields.io/badge/-beta-purple)   |
+| Engine   | [GraalJs](https://github.com/oracle/graaljs) + [OXC](https://oxc.rs)               |

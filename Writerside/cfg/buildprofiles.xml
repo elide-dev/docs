@@ -14,21 +14,17 @@
         <!-- Style & Images -->
         <primary-color>purple</primary-color>
         <custom-favicons>mark-e-favicon-r2.svg</custom-favicons>
-        <header-logo>mark-e-gray.png</header-logo>
+        <header-logo>mark-sq-gray.svg</header-logo>
 
         <!-- Analytics -->
         <analytics-head-script-file>analytics_head.html</analytics-head-script-file>
         <analytics-body-html-file>analytics_tail.html</analytics-body-html-file>
 
-        <!-- Browser Edits -->
-        <enable-browser-edits>true</enable-browser-edits>
-        <browser-edits-url>https://github.com/elide-dev/docs/edit/main/Writerside/topics/</browser-edits-url>
-
         <!-- Feedback Widget -->
         <feedback-widget>false</feedback-widget>
         <feedbackRequireEmail>false</feedbackRequireEmail>
-        <feedback-url>https://help.elide.dev</feedback-url>
-        <feedback-support>https://help.elide.dev</feedback-support>
+        <feedback-url>https://github.com/elide-dev/elide/issues/new</feedback-url>
+        <feedback-support>https://github.com/elide-dev/elide/issues/new</feedback-support>
 
         <!-- SEO -->
         <generate-canonicals>true</generate-canonicals>
@@ -55,7 +51,7 @@
         <write-help-state-file>true</write-help-state-file>
     </variables>
 
-    <sitemap priority="0.35" change-frequency="monthly"/>
+    <sitemap priority="0.6" change-frequency="monthly"/>
 
     <icons>
         <shared-src>icons</shared-src>
@@ -67,6 +63,8 @@
         <link href="https://elide.dev">Website</link>
         <link href="https://github.com/elide-dev">%product% on GitHub</link>
     </footer>
+
+    <llm-txt single-file="true"/>
 
     <!-- Instance: Elide Docs -->
 

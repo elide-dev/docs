@@ -33,10 +33,10 @@ Opening issues for compatibility bugs helps us prioritize what to work on next.
 : 🔴 Not implemented.
 
 [`node:buffer`](https://nodejs.org/api/buffer.html)
-: 🔴 Not implemented.
+: 🟡 Partial support.
 
 [`node:child_process`](https://nodejs.org/api/child_process.html)
-: 🔴 Not implemented.
+: 🟡 Partial support.
 
 [`node:cluster`](https://nodejs.org/api/cluster.html)
 : 🔴 Not implemented.
@@ -150,32 +150,32 @@ Opening issues for compatibility bugs helps us prioritize what to work on next.
 : 🔴 Not implemented.
 
 [`node:zlib`](https://nodejs.org/api/zlib.html)
-: 🔴 Not implemented.
+: 🟡 Partial support.
 
 ## Globals
 
 The table below lists all globals implemented by Node.js and Bun's current compatibility status.
 
 [`AbortController`](https://developer.mozilla.org/en-US/docs/Web/API/AbortController)
-: 🟡 Polyfilled.
+: 🟢 Supported.
 
 [`AbortSignal`](https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal)
-: 🟡 Polyfilled.
+: 🟢 Supported.
 
 [`Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`Buffer`](https://nodejs.org/api/buffer.html#class-buffer)
-: 🟡 Polyfilled.
+: 🟢 Supported.
 
 [`ByteLengthQueuingStrategy`](https://developer.mozilla.org/en-US/docs/Web/API/ByteLengthQueuingStrategy)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`__dirname`](https://nodejs.org/api/globals.html#__dirname)
-: 🔴 Not implemented.
+: 🟢 Supported in CJS contexts.
 
 [`__filename`](https://nodejs.org/api/globals.html#__filename)
-: 🔴 Not implemented.
+: 🟢 Supported in CJS contexts.
 
 [`atob()`](https://developer.mozilla.org/en-US/docs/Web/API/atob)
 : 🟢 Supported.
@@ -229,19 +229,19 @@ The table below lists all globals implemented by Node.js and Bun's current compa
 : 🟢 Supported.
 
 [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/fetch)
-: 🟡 Coming soon.
+: 🟢 Supported (experimental).
 
 [`FormData`](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
 : 🔴 Not implemented.
 
 [`global`](https://nodejs.org/api/globals.html#global)
-: 🟢 Supported. This is an object containing all objects in the global namespace. It's rarely referenced directly, as its contents are available without an additional prefix, e.g. `__dirname` instead of `global.__dirname`.
+: 🟢 Aliases to `globalThis`.
 
 [`globalThis`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis)
-: 🟢 Aliases to `global`.
+: 🟢 Supported. This is an object containing all objects in the global namespace. It's rarely referenced directly, as its contents are available without an additional prefix, e.g. `__dirname` instead of `global.__dirname`.
 
 [`Headers`](https://developer.mozilla.org/en-US/docs/Web/API/Headers)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`MessageChannel`](https://developer.mozilla.org/en-US/docs/Web/API/MessageChannel)
 : 🔴 Not implemented.
@@ -274,40 +274,40 @@ The table below lists all globals implemented by Node.js and Bun's current compa
 : 🔴 Not implemented.
 
 [`performance`](https://developer.mozilla.org/en-US/docs/Web/API/performance)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`process`](https://nodejs.org/api/process.html)
 : 🟡 Mostly implemented.
 
 [`queueMicrotask()`](https://developer.mozilla.org/en-US/docs/Web/API/queueMicrotask)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`ReadableByteStreamController`](https://developer.mozilla.org/en-US/docs/Web/API/ReadableByteStreamController)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`ReadableStream`](https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`ReadableStreamBYOBReader`](https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBReader)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`ReadableStreamBYOBRequest`](https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBRequest)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`ReadableStreamDefaultController`](https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultController)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`ReadableStreamDefaultReader`](https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultReader)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`require()`](https://nodejs.org/api/globals.html#require)
 : 🟢 Supported, including [`require.main`](https://nodejs.org/api/modules.html#requiremain), [`require.cache`](https://nodejs.org/api/modules.html#requirecache), [`require.resolve`](https://nodejs.org/api/modules.html#requireresolverequest-options)
 
 [`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`Request`](https://developer.mozilla.org/en-US/docs/Web/API/Request)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`setImmediate()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate)
 : 🟡 Coming soon.
@@ -328,22 +328,22 @@ The table below lists all globals implemented by Node.js and Bun's current compa
 : 🔴 Not implemented.
 
 [`TextDecoder`](https://developer.mozilla.org/en-US/docs/Web/API/TextDecoder)
-: 🟡 Polyfilled.
+: 🟢 Supported.
 
 [`TextDecoderStream`](https://developer.mozilla.org/en-US/docs/Web/API/TextDecoderStream)
 : 🔴 Not implemented.
 
 [`TextEncoder`](https://developer.mozilla.org/en-US/docs/Web/API/TextEncoder)
-: 🟡 Polyfilled.
+: 🟢 Supported.
 
 [`TextEncoderStream`](https://developer.mozilla.org/en-US/docs/Web/API/TextEncoderStream)
 : 🔴 Not implemented.
 
 [`TransformStream`](https://developer.mozilla.org/en-US/docs/Web/API/TransformStream)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`TransformStreamDefaultController`](https://developer.mozilla.org/en-US/docs/Web/API/TransformStreamDefaultController)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`URL`](https://developer.mozilla.org/en-US/docs/Web/API/URL)
 : 🟢 Supported; approaches full compliance.
@@ -355,13 +355,13 @@ The table below lists all globals implemented by Node.js and Bun's current compa
 : 🟢 Supported.
 
 [`WritableStream`](https://developer.mozilla.org/en-US/docs/Web/API/WritableStream)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`WritableStreamDefaultController`](https://developer.mozilla.org/en-US/docs/Web/API/WritableStreamDefaultController)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 [`WritableStreamDefaultWriter`](https://developer.mozilla.org/en-US/docs/Web/API/WritableStreamDefaultWriter)
-: 🔴 Not implemented.
+: 🟢 Supported.
 
 ## Let us know what you need
 

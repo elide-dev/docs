@@ -12,39 +12,26 @@
         </description>
 
         <spotlight>
-            <a href="Polyglot.md" type="start" summary="Thinking in multiple languages">Polyglot 101</a>
+            <a href="Polyglot.md" type="start" summary="Thinking in multiple languages"/>
             <a href="%frameworkDocs%" type="search" summary="API and reference documentation">Reference</a>
         </spotlight>
 
         <primary>
             <title>Languages</title>
-            <a href="JavaScript.md" type="javascript" summary="Run JavaScript and TypeScript with %product% up to ECMA2023">JavaScript, TypeScript, Node.js</a>
-            <a href="Python.md" type="python" summary="Run Python with %product%, up to 3.12.x">Python</a>
-            <a href="Ruby.md" type="ruby" summary="Run Ruby with %product%, up to MRI 3.2">Ruby</a>
+            <a href="JavaScript.md" summary="Run JavaScript and TypeScript with %product% up to ECMA2024">JavaScript, TypeScript, Node.js</a>
+            <a href="Python.md" summary="Run Python with %product%, up to 3.11.x"/>
+            <a href="Ruby.md" summary="Run Ruby with %product%, up to MRI 3.2"/>
             <a href="Experimental.md" summary="Experimental engines, including JVM, LLVM, and WebAssembly">JVM, LLVM, WASM</a>
         </primary>
 
         <secondary>
-            <title>Building servers</title>
-            <a href="" summary="Embed React SSR in your Kotlin app">Kotlin + React SSR</a>
-            <a href="" summary="Run Express-compatible servers on %product%">%product% + Express.js</a>
-            <a href="" summary="Packaging and serving static resources">Static Assets</a>
+            <title>Conformance</title>
+            <a href="Node-API.md" summary="Using the Node API"/>
+            <a href="WinterTC.md" summary="WinterTC Conformance">%product% + WinterTC</a>
         </secondary>
 
         <misc>
-            <cards>
-                <title>Architecture guides</title>
-                <a href="Execution.md" summary="Execution and language interop in %product%"/>
-                <a href="Security.md" summary="Security and host/guest isolation"/>
-                <a href="Performance.md" summary="Startup and runtime performance and benchmarks"/>
-            </cards>
             <links>
-                <group>
-                    <title>Related Software</title>
-                    <a summary="%product% uses Micronaut for serving" href="https://micronaut.io">Micronaut</a>
-                    <a summary="%product% is written in Kotlin" href="https://kotlinlang.org">Kotlin</a>
-                    <a summary="%product% executes guest code with GraalVM" href="https://graalvm.org">GraalVM</a>
-                </group>
                 <group>
                     <title>Legal &amp; Licensing</title>
                     <a summary="Terms of Use" href="https://elide.dev/legal/terms">Terms of Use</a>

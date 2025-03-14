@@ -79,21 +79,6 @@ switcher-label: OS
         </code-block>
         <img src="bin-help.png" alt="Help output from the %product% binary" border-effect="line"/>
     </step>
-    <step>
-        <p>Run %product%'s built-in self-tests:</p>
-        <code-block lang="console">
-          > elide selftest
-        </code-block>
-        <img src="bin-selftest.png" alt="Self-test output from the %product% binary" border-effect="line"/>
-        <p>Notes about %product%'s self-test suite:</p>
-        <ul>
-          <li>The first time you run `selftest`, it may take longer as native libraries are unpacked.</li>
-          <li>The self-test suite runs code in every supported language</li>
-          <li>%product% should warm up after a few runs of `selftest`</li>
-          <li>At full warm-up, all tests should complete in less than half a second (500ms)</li>
-        </ul>
-        <br />
-    </step>
 </procedure>
 
 ## Troubleshooting
@@ -115,9 +100,6 @@ Follow the steps below if you're having trouble installing %product%:
           /some/path/to/elide: Mach-O 64-bit executable arm64
         </code-block>
         <p>Note that on Linux you should see an ELF binary.</p>
-    </step>
-    <step>
-        <p>Make sure you can run `elide --help` and `elide selftest` (see above)</p>
     </step>
 </procedure>
 

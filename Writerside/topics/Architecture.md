@@ -14,12 +14,4 @@ safety, and a full standard library with plenty of testing and functional covera
 
 <img src="arch-v1.svg" />
 
-## Glossary
-
-A definition list or a glossary:
-
-First Term
-: This is the definition of the first term.
-
-Second Term
-: This is the definition of the second term.
+> Note: This is already out of date, but it's as close as we have right now to an architectural diagram.

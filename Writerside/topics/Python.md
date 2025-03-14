@@ -20,17 +20,3 @@ def hello():
 | Standard | `3.11.x`                                             |
 | Maturity | ![Alpha](https://img.shields.io/badge/-alpha-blue)   |
 | Engine   | [GraalPython](https://github.com/oracle/graalpython) |
-
-## What is product/service/concept
-
-Provide some background and context, explain choices and alternatives.
-
-## Glossary
-
-A definition list or a glossary:
-
-First Term
-: This is the definition of the first term.
-
-Second Term
-: This is the definition of the second term.
