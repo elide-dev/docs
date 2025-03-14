@@ -54,7 +54,7 @@ elide ./hello.ts
 
 - ☑️ %product% runs your Python code **up to 3x faster than CPython**.
 - ☑️ %product% runs your TypeScript code **faster than Node can run JavaScript**.
-- ☑️ %product% runs your HTTP endpoints at up to **800k requests per second**. That's [really fast](Performance.md).
+- ☑️ %product% runs your HTTP endpoints at up to **800k RPS**. That's [really fast](Performance.md).
 
 > %product% is independently benchmarked by TechEmpower. [Latest results][2]
 {style="note"}

@@ -4,7 +4,7 @@ Run your first code samples with %product%
 
 ## Before you start
 
-You'll need an installed copy of %product%. Follow the [Installation](Installation.md) guide to obtain a copy of
+You'll need an installed copy of %product%. Follow the [](Installation.md) guide to obtain a copy of
 %product%.
 
 ## Running some code
@@ -12,7 +12,7 @@ You'll need an installed copy of %product%. Follow the [Installation](Installati
 %product% can accept a raw string of code or a file to run in any supported language. Best attempts are made to detect
 the primary language via the source file's extension (`.js` will load a JS VM, `.py` a Python VM, etc.).
 
-1. Let's run a snippet of [JavaScript](JavaScript.md)
+1. Let's run a snippet of [](JavaScript.md)
 
    ```bash
     elide run --javascript -c "console.log('Hello!');"
@@ -22,7 +22,7 @@ the primary language via the source file's extension (`.js` will load a JS VM, `
    Exiting session. Have a great day! 👋
    ```
 
-2. Now let's do the same thing, but with some [Python](Python.md)
+2. Now let's do the same thing, but with some [](Python.md)
 
    ```bash
     elide run --python -c 'print("Hello!")'
@@ -32,7 +32,7 @@ the primary language via the source file's extension (`.js` will load a JS VM, `
    Exiting session. Have a great day! 👋
    ```
 
-3. Now let's do the same thing, but with some [Ruby](Ruby.md)
+3. Now let's do the same thing, but with some [](Ruby.md)
 
    ```bash
     elide run --ruby -c 'puts "Hello!"'

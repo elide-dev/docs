@@ -97,7 +97,9 @@ docker run --rm -it ghcr.io/elide-dev/elide
   - name: "Setup: Elide"
     uses: elide-dev/setup-elide@v1.0.1
     with:
-      version: 1.0.0-beta1  # any tag from the `elide-dev/releases` repo; omit for latest version
+      # any tag from the `elide-dev/releases` repo.
+      # omit a version to use the latest version.
+      version: 1.0.0-beta1
 ```
 
 ## Troubleshooting
