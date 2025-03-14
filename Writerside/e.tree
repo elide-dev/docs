@@ -12,6 +12,7 @@
         <toc-element topic="101-Environment.md"/>
         <toc-element topic="101-Filesystem.md"/>
         <toc-element topic="101-Debugging.md" />
+        <toc-element topic="101-Polyglot-Context.md"/>
         <toc-element topic="101-Servers.md"/>
     </toc-element>
     <toc-element topic="Language-Guides.topic"/>
@@ -69,9 +70,12 @@
             </toc-element>
             <toc-element topic="WinterTC.md"/>
             <toc-element topic="javascript-sqlite.md"/>
+            <toc-element topic="JavaScript-Tooling.md"/>
         </toc-element>
         <toc-element topic="TypeScript.md"/>
-        <toc-element topic="Python.md"/>
+        <toc-element topic="Python.md">
+            <toc-element topic="Python-Tooling.md"/>
+        </toc-element>
         <toc-element topic="Ruby.md"/>
         <toc-element topic="Pkl.md"/>
         <toc-element topic="Experimental.md"/>

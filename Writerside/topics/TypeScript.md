@@ -23,6 +23,7 @@ const { x, y, z } = require("./script.{ts,cts,mts}")
 | Standard | `5.8.x`                                              |
 | Maturity | ![Beta](https://img.shields.io/badge/-beta-purple)   |
 | Engine   | [GraalJs](https://github.com/oracle/graaljs) + [OXC](https://oxc.rs)               |
+| Tools    | [Orogene](https://orogene.dev) and [OXC](https://oxc.rs) (see [JS Tooling](JavaScript-Tooling.md)) |
 
 ## How to use it
 
