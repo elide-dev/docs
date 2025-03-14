@@ -1,6 +1,6 @@
 # CLI Reference
 
-%product% supports multiple sub-commands, similar to Git or Bun.
+%product% supports multiple sub-commands, similar to Git.
 
 ## Usage
 
@@ -61,9 +61,12 @@ an appropriate language if given a clearly identifiable source file (Python for 
 : Alias to `run` some Ruby. Equivalent to `elide run --ruby ...`.
 
 `js`
-: Opens a file. Equivalent to `elide run --javascript ...`. Note that JavaScript is the default language engine.
+: Runs a file. Equivalent to `elide run --javascript ...`. Note that JavaScript is the default language engine.
 
 ## Utility Commands
+
+`install`
+: Install dependencies for an %product% project; this includes all supported ecosystems by default.
 
 `info`
 : Show info about the current installation of %product%.
@@ -76,9 +79,6 @@ an appropriate language if given a clearly identifiable source file (Python for 
 
 `bug`, `issue`
 : File an issue or a feature request for %product%.
-
-`selfupdate`
-: Upgrade %product% to the latest version in-place.
 
 ## Global Options
 
@@ -95,7 +95,3 @@ Describe what each option is used for:
 
 -d, --debug
 : Activate debug logging. **Caution:** Debug-level logging can be very verbose.
-
-<seealso>
-    <!--Provide links to related how-to guides, overviews, and tutorials.-->
-</seealso>
