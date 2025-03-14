@@ -81,6 +81,25 @@ switcher-label: OS
     </step>
 </procedure>
 
+## Container Images
+
+%product% ships as container images, too. You can use %product% from Docker:
+
+```Console
+docker run --rm -it ghcr.io/elide-dev/elide
+```
+
+## Continuous Integration
+
+%product% ships a GitHub action at [`elide-dev/setup-elide`](https://github.com/elide-dev/setup-elide):
+
+```yaml
+  - name: "Setup: Elide"
+    uses: elide-dev/setup-elide@v1.0.1
+    with:
+      version: 1.0.0-beta1  # any tag from the `elide-dev/releases` repo; omit for latest version
+```
+
 ## Troubleshooting
 
 Follow the steps below if you're having trouble installing %product%:
@@ -102,11 +121,3 @@ Follow the steps below if you're having trouble installing %product%:
         <p>Note that on Linux you should see an ELF binary.</p>
     </step>
 </procedure>
-
-## Container Images
-
-%product% ships as container images, too. You can use %product% from Docker:
-
-```Console
-docker run --rm -it ghcr.io/elide-dev/elide
-```
