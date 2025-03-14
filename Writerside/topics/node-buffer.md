@@ -11,10 +11,10 @@ API support and documentation for the `node:buffer` module.
     </tab>
 </tabs>
 
-| Specification | Module        | Support                                                                    | Documentation                                             |
-|---------------|---------------|----------------------------------------------------------------------------|-----------------------------------------------------------|
-| Node.js API   | `node:buffer` | ![Not implemented](https://img.shields.io/badge/-Not%20implemented-yellow) | [Node.js Buffer Docs](https://nodejs.org/api/buffer.html) |
+| Specification | Module        | Support                 | Documentation                                             |
+|---------------|---------------|-------------------------|-----------------------------------------------------------|
+| Node.js API   | `node:buffer` | 🟡 Partially supported. | [Node.js Buffer Docs](https://nodejs.org/api/buffer.html) |
 
 ## Methods
 
-Coming soon.
+Use `Buffer.from` as you do in Node.js. More docs are coming soon.

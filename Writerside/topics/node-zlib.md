@@ -157,3 +157,4 @@ These methods compress or decompress data.
 
 [`unzipSync(buffer[, options])`](https://nodejs.org/docs/latest/api/zlib.html#zlibunzipsyncbuffer-options)
 : 🟢 Supported.
+

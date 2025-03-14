@@ -60,10 +60,10 @@ Opening issues for compatibility bugs helps us prioritize what to work on next.
 : 🔴 Not implemented.
 
 [`node:events`](node-events.md)
-: 🟡 Coming soon.
+: 🟢 Supported.
 
 [`node:fs`](node-fs.md)
-: 🟡 Some basic methods are implemented (`readFile`, `readFileSync`, `writeFile`, `writeFileSync`, etc.).
+: 🟡 Some methods are implemented (`readFile`, `readFileSync`, `writeFile`, `writeFileSync`, etc.).
 
 [`node:http`](https://nodejs.org/api/http.html)
 : 🔴 Not implemented.
@@ -93,7 +93,7 @@ Opening issues for compatibility bugs helps us prioritize what to work on next.
 : 🔴 Not implemented.
 
 [`node:process`](https://nodejs.org/api/process.html)
-: 🟡 See `process` global.
+: 🟢 Supported.
 
 [`node:punycode`](https://nodejs.org/api/punycode.html)
 : 🔴 Not implemented.
@@ -108,7 +108,7 @@ Opening issues for compatibility bugs helps us prioritize what to work on next.
 : 🔴 Not implemented.
 
 [`node:stream`](https://nodejs.org/api/stream.html)
-: 🟡 Coming soon.
+: 🟢 Supported.
 
 [`node:string_decoder`](https://nodejs.org/api/string_decoder.html)
 : 🔴 Not implemented.
@@ -150,7 +150,7 @@ Opening issues for compatibility bugs helps us prioritize what to work on next.
 : 🔴 Not implemented.
 
 [`node:zlib`](https://nodejs.org/api/zlib.html)
-: 🟡 Partial support.
+: 🟢 Supported.
 
 ## Globals
 
@@ -277,7 +277,7 @@ The table below lists all globals implemented by Node.js and Bun's current compa
 : 🟢 Supported.
 
 [`process`](https://nodejs.org/api/process.html)
-: 🟡 Mostly implemented.
+: 🟢 Supported.
 
 [`queueMicrotask()`](https://developer.mozilla.org/en-US/docs/Web/API/queueMicrotask)
 : 🟢 Supported.

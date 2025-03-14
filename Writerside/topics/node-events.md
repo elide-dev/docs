@@ -11,9 +11,9 @@ API support and documentation for the `node:events` module.
     </tab>
 </tabs>
 
-| Specification | Module        | Support                                                                    | Documentation                                             |
-|---------------|---------------|----------------------------------------------------------------------------|-----------------------------------------------------------|
-| Node.js API   | `node:events` | ![Not implemented](https://img.shields.io/badge/-Not%20implemented-yellow) | [Node.js Events Docs](https://nodejs.org/api/events.html) |
+| Specification | Module        | Support                 | Documentation                                             |
+|---------------|---------------|-------------------------|-----------------------------------------------------------|
+| Node.js API   | `node:events` | 🟡 Partially supported. | [Node.js Events Docs](https://nodejs.org/api/events.html) |
 
 ## Methods
 
