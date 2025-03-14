@@ -5,7 +5,7 @@
 [%product%](https://elide.dev) is a high-performance multi-language software runtime. Here you can find reference docs, guides,
 code samples, and more.
 
-<br />
+## Highlights
 
 🚀 **%product% is a runtime, like Node or Python.**
 
@@ -25,13 +25,16 @@ Kotlin, Scala), and LLVM (Swift, C++, Rust) are on the way.
 // hello.ts
 import { sayHello } from "./my-app.py"
 
-// this line exists to show that this is typescript lol
-const msg: string = () => `${sayHello()} + TypeScript!`
-console.log(JSON.stringify({x: msg()}))
+// this line exists to show that this is typescript
+const msg: () => string = () => `${sayHello()} + TypeScript!`
+console.log(JSON.stringify({greeting: msg()}))
 </code-block>
 
 <code-block lang="python">
 # my-app.py
+from elide import polyglot
+
+@polyglot
 def say_hello():
   """Render a greeting."""
   return f"Hello from Python"
@@ -42,7 +45,7 @@ elide ./hello.ts
 </code-block>
 
 <code-block lang="Console">
-{"x": "Hello from Python + TypeScript!"}
+{"greeting": "Hello from Python + TypeScript!"}
 </code-block>
 
 ⏫ **%product% is extremely fast.**
@@ -56,10 +59,18 @@ elide ./hello.ts
 
 🧘 **%product% supports the APIs you already know and the tools you already love.**
 
-- ☑️ %product% is [WinterTC][3] compatible.
+- ☑️ %product% is [WinterTC][3] compatible and passes [Test262][4]
 - ☑️ Like other JS runtimes, %product% **supports a large slice of the [Node API](Node-API.md)**.
 - ☑️ Works with **NPM and PyPI**, **CJS** and **ESM**.
 - ☑️ Insanely fast **dependency installation** (via [orogene][0] and [uv][1]).
+
+🔋 **%product% comes with batteries included.**
+
+- ☑️ %product% supports embedded [SQLite](javascript-sqlite.md).
+- ☑️ %product% runs your HTTP endpoints at up to **800,000 requests per second** (see [](Performance.md)).
+
+> %product% is independently benchmarked by TechEmpower. [Latest results][2]
+{style="note"}
 
 ## %product% is in beta
 
@@ -72,7 +83,7 @@ Check out %product%'s launch video
 <seealso style="cards">
     <category ref="gettingStarted">
         <a summary="Install %product% on your machine" href="Installation.md">Installing %product%</a>
-        <a summary="Code samples in each language" href="GettingStarted.md">Getting Started</a>
+        <a summary="Code samples in each language" href="GettingStarted.md"/>
         <a summary="Thinking about software in more than one language" href="Polyglot.md">Polyglot 101: Thinking in Multiple Languages</a>
         <a summary="Runtime usage guides by language" href="Language-Guides.topic">%product% Runtime: Language Guides</a>
     </category>
@@ -82,3 +93,4 @@ Check out %product%'s launch video
 [1]: https://github.com/astral-sh/uv
 [2]: https://www.techempower.com/benchmarks/#hw=ph&test=plaintext&section=data-r23:~:text=133-,elide,-4%2C089%2C078
 [3]: https://wintertc.org
+[4]: https://github.com/tc39/test262

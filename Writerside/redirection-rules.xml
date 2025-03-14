@@ -37,4 +37,8 @@
         <description>Created after removal of "Architecture" from Elide</description>
         <accepts>Architecture.html</accepts>
     </rule>
+    <rule id="1e4aae19">
+        <description>Created after removal of "Container Images" from Elide</description>
+        <accepts>Container-Images.html</accepts>
+    </rule>
 </rules>

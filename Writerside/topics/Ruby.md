@@ -2,7 +2,8 @@
 
 %product% can execute your Ruby applications, while integrating with other languages like JavaScript and Python.
 
-> Elide ships with Ruby disabled by default. This restriction will be lifted in a future release.
+> Elide ships with Ruby disabled by default. This restriction will be lifted in a future release. Please file an issue
+> [here](https://github.com/elide-dev/elide/issues/new) if Ruby support is a blocker for you.
 {style="warning"}
 
 ```Console

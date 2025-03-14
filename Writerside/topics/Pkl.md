@@ -66,7 +66,3 @@ version: '2.1'
 orbs:
   pr-approval: apple/pr-approval@0.1.0
 ```
-
-### Project configuration
-
-This is coming soon, and it will be powered by Pkl.

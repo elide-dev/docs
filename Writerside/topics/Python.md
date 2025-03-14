@@ -4,11 +4,22 @@
 CPython.
 
 ```Console
-elide run --python ...
+elide ./script.py
 ```
 ```Python
 def hello():
   print("Elide can run Python!")
+```
+```Python
+# python can of course import python
+from my_app import x, y, z
+```
+```JavaScript
+// from typescript, javascript
+import { x, y, z } from "./my-app.py"
+
+// cjs and esm are supported
+const { x, y, z } = require("./my-app.py")
 ```
 
 ## Language Engine
