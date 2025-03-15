@@ -88,10 +88,10 @@ jobs:
 
       - name: Create API docs layout
         run: |
-          mkdir -p dir/api
+          mkdir -p dir/
           cp -fv apidocs.tgz dir/
           cd dir
-          tar --strip-components=1 -xzf apidocs.tgz
+          tar -xzf apidocs.tgz
           rm -fv apidocs.tgz
           cd ..
           echo "API docs unpacked."
