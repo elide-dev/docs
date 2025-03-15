@@ -18,7 +18,7 @@ uniform across all languages:
   in Elide. If you see a variable in JavaScript, you will see it as well in Python, Ruby, and so on.
 
 > With %product%, system environment variables are **invisible by default** to running code. You can allow access to
-> system variables using [command line flags](CLI-Reference.md).
+> environment using [command line flags](CLI-Reference.md).
 > {style="note"}
 
 ## Before you start

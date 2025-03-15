@@ -5,4 +5,40 @@
         <description>Created after removal of "Welcome" from Elide</description>
         <accepts>Welcome.html</accepts>
     </rule>
+    <rule id="4960f4bf">
+        <description>Created after removal of "Code Samples" from Elide</description>
+        <accepts>Framework-Samples.html</accepts>
+    </rule>
+    <rule id="592751c4">
+        <description>Created after removal of "Elide Base" from Elide</description>
+        <accepts>Elide-Base.html</accepts>
+    </rule>
+    <rule id="2448eb41">
+        <description>Created after removal of "Elide Core" from Elide</description>
+        <accepts>Elide-Core.html</accepts>
+    </rule>
+    <rule id="53551440">
+        <description>Created after removal of "Elide Framework" from Elide</description>
+        <accepts>Elide-Framework.html</accepts>
+    </rule>
+    <rule id="23f7f2b">
+        <description>Created after removal of "Execution" from Elide</description>
+        <accepts>Execution.html</accepts>
+    </rule>
+    <rule id="7a7cc3c7">
+        <description>Created after removal of "Security" from Elide</description>
+        <accepts>Security.html</accepts>
+    </rule>
+    <rule id="15d1671b">
+        <description>Created after removal of "Performance" from Elide</description>
+        <accepts>Performance.html</accepts>
+    </rule>
+    <rule id="974b7b9">
+        <description>Created after removal of "Architecture" from Elide</description>
+        <accepts>Architecture.html</accepts>
+    </rule>
+    <rule id="1e4aae19">
+        <description>Created after removal of "Container Images" from Elide</description>
+        <accepts>Container-Images.html</accepts>
+    </rule>
 </rules>

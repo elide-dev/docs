@@ -1,22 +1,48 @@
 # CLI Reference
 
-%product% supports multiple sub-commands, similar to Git or Bun.
+%product% supports multiple sub-commands, similar to Git.
 
 ## Usage
 
 Syntax:
 
 ```text
-elide [OPTIONS]
-  or:  elide info|help|discord|bug... [OPTIONS]
-  or:  elide srcfile.<js|py|rb|kt|java|wasm|...> [OPTIONS]
-  or:  elide js|kt|jvm|python|ruby|wasm|node|deno [OPTIONS] [FILE]
-  or:  elide run|repl|serve [OPTIONS] [FILE]
-  or:  elide run|repl|serve [OPTIONS] [--code CODE]
-  or:  elide run|repl [OPTIONS]
-  or:  elide run|repl --js [OPTIONS]
-  or:  elide run|repl --language=[JS] [OPTIONS] [FILE]
-  or:  elide run|repl --languages=[JS,PYTHON,...] [OPTIONS] [FILE]
+ Usage:
+    or:  elide info|help|discord|bug... [OPTIONS]
+    or:  elide srcfile.<js|ts|...> [OPTIONS]
+    or:  elide js|node|deno [OPTIONS] [FILE] [ARG...]
+    or:  elide js|node|deno [OPTIONS] [--code CODE]
+    or:  elide run|repl|serve [OPTIONS] [FILE] [ARG...]
+    or:  elide run|repl|serve [OPTIONS] [--code CODE]
+    or:  elide run|repl [OPTIONS]
+    or:  elide run|repl --js [OPTIONS]
+    or:  elide run|repl --language=[JS] [OPTIONS] [FILE] [ARG...]
+    or:  elide run|repl --languages=[JS,PYTHON,...] [OPTIONS] [FILE] [ARG...]
+
+Manage, configure, and run polyglot applications with Elide
+
+Parameters:
+      [FILE]      Source file to run.
+      [ARG...]    Arguments to pass
+
+Options:
+  -h, --help      Show this message and exit.
+  -V, --version   Print version information and exit.
+
+Commands:
+  info                 Show info about the current app and environment
+  help, bug, issue
+                       Report an issue or bug, find help for using Elide
+  run, r, serve, repl
+                       Run a polyglot script, server, or interactive shell
+  pkl
+                       Run the Pkl command-line tools
+  discord              Open or show a Discord invite link
+
+Exit Codes:
+  0   Successful program execution.
+  1    Generic failure (terminal).
+  2    Exception in user code.
 ```
 
 ## Runner Commands
@@ -35,9 +61,12 @@ an appropriate language if given a clearly identifiable source file (Python for 
 : Alias to `run` some Ruby. Equivalent to `elide run --ruby ...`.
 
 `js`
-: Opens a file. Equivalent to `elide run --javascript ...`. Note that JavaScript is the default language engine.
+: Runs a file. Equivalent to `elide run --javascript ...`. Note that JavaScript is the default language engine.
 
 ## Utility Commands
+
+`install`
+: Install dependencies for an %product% project; this includes all supported ecosystems by default.
 
 `info`
 : Show info about the current installation of %product%.
@@ -50,9 +79,6 @@ an appropriate language if given a clearly identifiable source file (Python for 
 
 `bug`, `issue`
 : File an issue or a feature request for %product%.
-
-`selfupdate`
-: Upgrade %product% to the latest version in-place.
 
 ## Global Options
 
@@ -69,7 +95,3 @@ Describe what each option is used for:
 
 -d, --debug
 : Activate debug logging. **Caution:** Debug-level logging can be very verbose.
-
-<seealso>
-    <!--Provide links to related how-to guides, overviews, and tutorials.-->
-</seealso>

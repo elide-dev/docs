@@ -33,7 +33,7 @@ API support and documentation for the `node:assert` module.
 ## `assert` | Methods
 
 [`assert(value[, message])`](https://nodejs.org/api/assert.html#assertvalue-message)
-: 🟡 Implemented; awaiting bugfix for default module exports. Use `assert.ok()` in the meantime.
+: 🟢 Supported.
 
 [`assert.deepEqual(actual, expected[, message])`](https://nodejs.org/api/assert.html#assertdeepequalactual-expected-message)
 : 🔴 Not yet implemented.

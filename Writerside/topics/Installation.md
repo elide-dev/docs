@@ -79,22 +79,28 @@ switcher-label: OS
         </code-block>
         <img src="bin-help.png" alt="Help output from the %product% binary" border-effect="line"/>
     </step>
-    <step>
-        <p>Run %product%'s built-in self-tests:</p>
-        <code-block lang="console">
-          > elide selftest
-        </code-block>
-        <img src="bin-selftest.png" alt="Self-test output from the %product% binary" border-effect="line"/>
-        <p>Notes about %product%'s self-test suite:</p>
-        <ul>
-          <li>The first time you run `selftest`, it may take longer as native libraries are unpacked.</li>
-          <li>The self-test suite runs code in every supported language</li>
-          <li>%product% should warm up after a few runs of `selftest`</li>
-          <li>At full warm-up, all tests should complete in less than half a second (500ms)</li>
-        </ul>
-        <br />
-    </step>
 </procedure>
+
+## Container Images
+
+%product% ships as container images, too. You can use %product% from Docker:
+
+```Console
+docker run --rm -it ghcr.io/elide-dev/elide
+```
+
+## Continuous Integration
+
+%product% ships a GitHub action at [`elide-dev/setup-elide`](https://github.com/elide-dev/setup-elide):
+
+```yaml
+  - name: "Setup: Elide"
+    uses: elide-dev/setup-elide@v1.0.1
+    with:
+      # any tag from the `elide-dev/releases` repo.
+      # omit a version to use the latest version.
+      version: 1.0.0-beta1
+```
 
 ## Troubleshooting
 
@@ -116,50 +122,4 @@ Follow the steps below if you're having trouble installing %product%:
         </code-block>
         <p>Note that on Linux you should see an ELF binary.</p>
     </step>
-    <step>
-        <p>Make sure you can run `elide --help` and `elide selftest` (see above)</p>
-    </step>
 </procedure>
-
-## Container Images
-
-%product% ships as container images, too. You can use %product% from Docker:
-
-```Console
-docker run --rm -it ghcr.io/elide-dev/elide
-```
-
-> Read more about container images provided by %product% on the [Container Images](Container-Images.md) page.
-
-## Known Limitations
-
-On certain OS or OS/arch pairs, %product% may not have full support for every feature. Consult the sections below for
-the operating system and architecture you want to use.
-
-### Limitations on macOS
-
-Certain features are not supported on macOS yet:
-
-- **G1 garbage collector is not supported**:
-  On macOS, the [`serial`](https://www.graalvm.org/latest/reference-manual/native-image/optimizations-and-performance/MemoryManagement/#serial-garbage-collector)
-  collector is used instead. This is fine for development but less suitable for production use. This limitation is
-  expected to change eventually.
-
-- **Espresso (JVM) is not supported**:
-  At this time there are no native libs available upstream for Espresso on macOS.
-  Espresso ([Java on Truffle](https://www.graalvm.org/latest/reference-manual/java-on-truffle/)) is experimental and
-  this limitation is expected to change eventually.
-
-## Framework Installation
-
-To use %product% as a JVM framework, see the [%product% Framework](Elide-Framework.md) docs. Generally speaking, library
-modules are installed as Maven dependencies.
-
-<seealso>
-    <category ref="gettingStarted">
-        <a href="GettingStarted.md">Getting Started with %product%</a>
-        <a href="Polyglot.md">Polyglot 101: Thinking in Multiple Languages</a>
-        <a href="Language-Guides.topic">%product% Runtime: Language Guides</a>
-        <a href="Elide-Framework.md">%product% Framework: Using %product% from JVM</a>
-    </category>
-</seealso>
