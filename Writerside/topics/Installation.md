@@ -95,7 +95,7 @@ docker run --rm -it ghcr.io/elide-dev/elide
 
 ```yaml
   - name: "Setup: Elide"
-    uses: elide-dev/setup-elide@v1.0.1
+    uses: elide-dev/setup-elide@v2
     with:
       # any tag from the `elide-dev/releases` repo.
       # omit a version to use the latest version.
