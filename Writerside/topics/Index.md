@@ -23,18 +23,14 @@ Kotlin, Scala), and LLVM (Swift, C++, Rust) are on the way.
 
 <code-block lang="typescript">
 // hello.ts
-import { sayHello } from "./my-app.py"
+import py from "./my-app.py"
 
 // this line exists to show that this is typescript
-const msg: () => string = () => `${sayHello()} + TypeScript!`
+const msg: () => string = () => `${py.say_hello()} + TypeScript!`
 console.log(JSON.stringify({greeting: msg()}))
 </code-block>
 
 <code-block lang="python">
-# my-app.py
-from elide import polyglot
-
-@polyglot
 def say_hello():
   """Render a greeting."""
   return f"Hello from Python"
@@ -47,6 +43,8 @@ elide ./hello.ts
 <code-block lang="Console">
 {"greeting": "Hello from Python + TypeScript!"}
 </code-block>
+
+----
 
 <br />
 
