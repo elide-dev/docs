@@ -32,16 +32,6 @@ the primary language via the source file's extension (`.js` will load a JS VM, `
    Exiting session. Have a great day! 👋
    ```
 
-3. Now let's do the same thing, but with some [](Ruby.md)
-
-   ```bash
-    elide run --ruby -c 'puts "Hello!"'
-   ```
-   ```Console
-   Hello!
-   Exiting session. Have a great day! 👋
-   ```
-
 > **Language Selection**
 >
 > %product% can run multiple languages at once. Your primary language selection only affects how your entrypoint script
@@ -62,11 +52,6 @@ elide
 **Open a Python console:**
 ```Console
 elide python
-```
-
-**Open a Ruby console:**
-```Console
-elide ruby
 ```
 
 > **Exiting the REPL**

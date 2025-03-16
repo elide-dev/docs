@@ -91,7 +91,7 @@ docker run --rm -it ghcr.io/elide-dev/elide
 
 ## Continuous Integration
 
-%product% ships a GitHub action at [`elide-dev/setup-elide`](https://github.com/elide-dev/setup-elide):
+%product% ships a [GitHub action](https://github.com/marketplace/actions/setup-elide):
 
 ```yaml
   - name: "Setup: Elide"
