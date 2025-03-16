@@ -105,6 +105,8 @@
     <toc-element topic="CLI-Reference.md"/>
     <toc-element topic="Contributors.md"/>
     <toc-element topic="humans.md"/>
+    <toc-element toc-title="Binary Report" href="https://dl.elide.dev/cli/v1/snapshot/linux-amd64/1.0.0-beta1/elide-build-report.html" />
+    <toc-element toc-title="SBOM" href="https://dl.elide.dev/cli/v1/snapshot/linux-amd64/1.0.0-beta1/elide.sbom.json" />
     <toc-element toc-title="API Docs" href="https://docs.elide.dev/apidocs/index.html" />
     <toc-element toc-title="Elide on Discord" href="https://elide.dev/discord" />
     <toc-element toc-title="Elide on GitHub" href="https://elide.dev/github" />
