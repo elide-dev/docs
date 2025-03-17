@@ -9,45 +9,44 @@ does that mean? This guide explains how multiple languages can work in tandem to
 ## Starting Imperatively
 
 Let's start with a simple imperative example of how multiple languages might work together. We could begin with some
-JavaScript:
-
-```Javascript
-export function sayHello(name) {
-  console.log(`Hello, ${name}!`);
-}
-```
-
-We've defined a function here, which takes a `name` parameter; we format that and print it. Easy. Now let's imagine our
-magic runtime can shift to Python to call that code:
+Python:
 
 ```Python
-from "./my-js.mjs" import sayHello as say_hello
+# sample.py
 
-def call_hello():
-  """Call the `sayHello` function in JavaScript, from Python."""
-  say_hello("%product%")
+def say_hello(name = "Python"):
+  """Say hello to someone or something."""
+  return f"Hello, {name}!"
 ```
 
-> This demo does not work yet; please bear with us while our features and docs catch up to each other.
-> {style="warning"}
+Now let's save that file and create a new one. This time, in TypeScript:
 
-This is pretty easy to follow so far. We've defined that `sayHello` function in JavaScript, and now we are calling that
-same function from a new function, called `callHello`, in Python.
+```TypeScript
+// sample.ts
+import py from "./sample.py"
+
+console.log(`${py.say_hello()} + TypeScript!`)
+```
+
+We've defined some code in Python, and now we are **importing it into TypeScript**. This code is runnable with Elide:
+
+```Console
+> elide sample.ts
+```
+```Console
+Hello, Python + TypeScript!
+```
 
 ## But why?
 
-Have you ever wanted to write a Python app which could host a React UI? How about an application that's built in Ruby;
-maybe you want to do some image processing and you miss your PIL?
+Have you ever wanted to write a Python app which could host a React UI?
 
 There are tons of cases where one language is good at something, another is good at something else, and your app has to
 do both. %product% is what bridges this gap.
 
 ## Isn't that inefficient?
 
-That depends! %product% certainly behaves differently from, say, Node, but %product% handily beats Node and even Bun on
-several key benchmarks. Just like Bun vs. Node, or CPython vs. PyPy, performance isn't necessarily apples-to-apples.
-
-But, since you may be wondering, in the code sample above 👆
+%product% outperforms Node, Deno, _and_ CPython. But, since you may be wondering, in the code sample above 👆
 
 - **There is just one process.** No, %product% isn't calling out to Node with your source code, and then to Python, and
   stitching between with JSON or something. That _would_ be gross. There are systems that do this; Elide is not one
@@ -63,26 +62,46 @@ But, since you may be wondering, in the code sample above 👆
 
 Skeptical? Good. The best engineers often are. Let's beat the serialization allegations:
 
-```Javascript
-export function sayHello(nameGetter) {
-  console.log(`Hello, ${nameGetter()}!`);
-}
+```Python
+# sample.py
+
+def say_hello(name_getter):
+  return f"Hello, {name_getter()}!"
+
+def say_goodbye(name_getter):
+  return f"Goodbye, {name_getter()}!"
+
+def render_message(leaving = False):
+  if leaving: return say_goodbye
+  return say_hello
 ```
 
 And:
 
-```Python
-from "./my-js.mjs" import sayHelloWithGetter as say_hello
+```TypeScript
+// sample.ts
+import py from "./sample.py"
 
-def get_name():
-  return "Elide"
+const helloName = () => "Elide"
+const goodbyeName = () => "confining runtimes"
 
-def call_hello_look_ma_try_this_with_serialization():
-  say_hello(get_name)
+console.log(
+  // will render a hello message, passing functions between langs
+  py.render_message()(helloName)
+)
+console.log(
+  // will render a goodbye message
+  py.render_message(true)(goodbyeName)
+)
 ```
 
-> This demo does not work yet; please bear with us while our features and docs catch up to each other.
-> {style="warning"}
+```Console
+> elide sample.ts
+```
+```Console
+Hello, Elide!
+Goodbye, confining runtimes!
+```
 
 %product% will happily run this code. This is impossible with JSON, or Protobuf, or any other trickery on top of Node.js
 or CPython.
@@ -105,6 +124,15 @@ Now that we are thinking in a roughly-polyglot way, let's test the waters with s
 [Exercise: Filesystem Basics](101-Filesystem.md)
 : Read a file using Node.js built-ins ([`node:fs`](https://nodejs.org/api/fs.html)).
 
+[Exercise: Debugging](101-Debugging.md)
+: Step across language boundaries in a debugger
+
+[Exercise: Interop](101-Polyglot-Context.md)
+: Get familiar with cross-lang interop
+
+[Exercise: Servers](101-Servers.md)
+: Writing polyglot servers with %product%
+
 ## Benchmarking
 
 %product% makes use of language runtimes from the [GraalVM](https://graalvm.org) team which are benchmarked extensively
@@ -112,15 +140,9 @@ and continuously. People often ask if they can replicate these benchmarks. The a
 
 There are some tools we can recommend:
 
-| Tool                                                | Great for                      | Example invocation                                                    |
-|-----------------------------------------------------|--------------------------------|-----------------------------------------------------------------------|
-| [`hyperfine`](https://github.com/sharkdp/hyperfine) | CLI-invocable micro-benchmarks | [Using Hyperfine for benchmarks](#benchmarking-with-hyperfine)        |
-| [`wrk2`]( https://github.com/giltene/wrk2)          | Server benchmarking            | [Using wrk2 to benchmark %product%'s server](#benchmarking-with-wrk2) |
+| Tool                                                | Great for                      |
+|-----------------------------------------------------|--------------------------------|
+| [`hyperfine`](https://github.com/sharkdp/hyperfine) | CLI-invocable micro-benchmarks |
+| [`wrk2`]( https://github.com/giltene/wrk2)          | Server benchmarking            |
 
-### Benchmarking with Hyperfine
-
-Coming soon.
-
-### Benchmarking with wrk2
-
-Coming soon.
+Read more about %product%'s [](Performance.md)
