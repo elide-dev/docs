@@ -86,7 +86,7 @@ switcher-label: OS
 %product% ships as container images, too. You can use %product% from Docker:
 
 ```Console
-docker run --rm -it ghcr.io/elide-dev/elide
+docker run --rm -it ghcr.io/elide-dev/bash
 ```
 
 ## Continuous Integration
