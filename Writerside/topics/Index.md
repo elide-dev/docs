@@ -2,8 +2,8 @@
 
 <img src="elide-marquee.png" alt="%product%" />
 
-[%product%](https://elide.dev) is a high-performance multi-language software runtime. Here you can find reference docs, guides,
-code samples, and more.
+[%product%](https://elide.dev) is a high-performance multi-language software runtime, powered by [GraalVM][5].
+Here you can find reference docs, guides, code samples, and more.
 
 ## Highlights
 
@@ -98,3 +98,4 @@ Check out %product%'s launch video
 [2]: https://www.techempower.com/benchmarks/#hw=ph&test=plaintext&section=data-r23:~:text=133-,elide,-4%2C089%2C078
 [3]: https://wintertc.org
 [4]: https://github.com/tc39/test262
+[5]: https://graalvm.org

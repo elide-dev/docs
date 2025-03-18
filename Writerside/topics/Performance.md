@@ -34,12 +34,12 @@ Notes about pure language execution performance.
 
 Pure JS/TS startup time for %product% can be very fast:
 
-| Runtime | Language              | Case        | Startup latency (cold) | Hit latency (hot server) |
-|---------|-----------------------|-------------|------------------------|--------------------------|
-| Bun     | JavaScript/TypeScript | Hello World | ~6.5ms                 | ~1.5ms                   |
-| Node    | JavaScript Only       | Hello World | ~10ms                  | ~7ms                     |
-| Deno    | JavaScript Only       | Hello World | ~15ms                  | ~71ms                    |
-| Elide   | JavaScript/TypeScript | Hello World | ~20ms                  | ~2ms                     |
+| Runtime | Language              | Case        | Startup (cold) | Server hit (hot) |
+|---------|-----------------------|-------------|----------------|------------------|
+| Bun     | JavaScript/TypeScript | Hello World | ~6.5ms         | ~1.5ms           |
+| Node    | JavaScript Only       | Hello World | ~10ms          | ~7ms             |
+| Deno    | JavaScript Only       | Hello World | ~15ms          | ~71ms            |
+| Elide   | JavaScript/TypeScript | Hello World | ~20ms          | ~2ms             |
 
 > Numbers are representative of expected performance on Linux/amd64 with a modern CPU. [TechEmpower][2] independently
 > benchmarks %product% (see benchmarks below).
