@@ -27,13 +27,7 @@ switcher-label: OS
     </tab>
     <tab title="Package Managers">
         <procedure title="Install with a Package Manager" id="install-with-pkg-manager-posix">
-            <step>
-                <p>Start typing and select a procedure type from the completion suggestions:</p>
-                <img src="completion_procedure.png" alt="completion suggestions for procedure" border-effect="line"/>
-            </step>
-            <step>
-                <p>Press <shortcut>Tab</shortcut> or <shortcut>Enter</shortcut> to insert the markup.</p>
-            </step>
+            <p>Elide is not available yet via package managers. Please check back soon.</p>
         </procedure>
     </tab>
     <tab title="Binary Download">
