@@ -33,11 +33,8 @@ switcher-label: OS
     <tab title="Binary Download">
         <procedure title="Manual Binary Installation" id="binary-download-posix">
             <step>
-                <p>Start typing and select a procedure type from the completion suggestions:</p>
-                <img src="completion_procedure.png" alt="completion suggestions for procedure" border-effect="line"/>
-            </step>
-            <step>
-                <p>Press <shortcut>Tab</shortcut> or <shortcut>Enter</shortcut> to insert the markup.</p>
+                <p>Binary downloads are available via GitHub releases:</p>
+                <a href="https://github.com/elide-dev/elide/releases">GitHub Releases</a>
             </step>
         </procedure>
     </tab>
@@ -47,11 +44,7 @@ switcher-label: OS
     <tab title="Binary Download">
         <procedure title="Manual Binary Installation" id="binary-download-windows">
             <step>
-                <p>Start typing and select a procedure type from the completion suggestions:</p>
-                <img src="completion_procedure.png" alt="completion suggestions for procedure" border-effect="line"/>
-            </step>
-            <step>
-                <p>Press <shortcut>Tab</shortcut> or <shortcut>Enter</shortcut> to insert the markup.</p>
+                <p>Elide is not supported yet on Windows.</p>
             </step>
         </procedure>
     </tab>
