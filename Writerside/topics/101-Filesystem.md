@@ -49,6 +49,3 @@ We're going to try out %product%'s isolation with regard to **disk I/O**
 
    Neat! We can read the file.
 
-> Node's `fs` and `fs/promises` modules do not yet support I/O isolation. This feature is under construction and is
-> expected to land in `1.0.0-alpha10` or `1.0.0-beta1`.
-> {style="warning"}

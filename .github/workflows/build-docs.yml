@@ -16,7 +16,7 @@ env:
   ALGOLIA_APP_NAME: '6PJZ7B6YKU'
   ALGOLIA_INDEX_NAME: 'dev_elide_docs'
   CONFIG_JSON_PRODUCT: 'E'
-  CONFIG_JSON_VERSION: '1.0.0-beta1'
+  CONFIG_JSON_VERSION: '1.0.0-beta2'
 
 jobs:
   build:
