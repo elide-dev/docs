@@ -86,7 +86,7 @@ docker run --rm -it ghcr.io/elide-dev/bash
     with:
       # any tag from the `elide-dev/releases` repo.
       # omit a version to use the latest version.
-      version: 1.0.0-beta4
+      version: 1.0.0-beta5
 ```
 
 ## Troubleshooting
